@@ -1,10 +1,13 @@
 require File.expand_path('../boot', __FILE__)
 
 require 'rails/all'
+require 'logger'
 
 # Require the gems listed in Gemfile, including any gems
 # you've limited to :test, :development, or :production.
 Bundler.require(*Rails.groups)
+
+$LOG = Logger.new("survey_log.txt", 10, 1024000)
 
 module SurveyApp
   class Application < Rails::Application
@@ -22,5 +25,7 @@ module SurveyApp
 
     # Do not swallow errors in after_commit/after_rollback callbacks.
     config.active_record.raise_in_transactional_callbacks = true
+
+    
   end
 end
