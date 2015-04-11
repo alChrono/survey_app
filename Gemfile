@@ -43,3 +43,7 @@ group :development, :test do
   gem 'spring',		'1.3.4'
 end
 
+group :production do
+	
+end
+

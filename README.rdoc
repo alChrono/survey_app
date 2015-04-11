@@ -22,7 +22,8 @@
 	Raisl	4.2.1
 
 * System dependencies
-
+	- NodeJS - sudo apt-get install nodejs
+	
 * Configuration
 
 * Database creation
