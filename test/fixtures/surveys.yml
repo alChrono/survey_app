@@ -2,8 +2,6 @@
 
 one:
   name: MyString
-  question_list: MyString
 
 two:
   name: MyString
-  question_list: MyString
