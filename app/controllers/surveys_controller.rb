@@ -14,6 +14,7 @@ class SurveysController < ApplicationController
 
   # GET /surveys/new
   def new
+    $LOG.debug{"Start create new survey."}
     @survey = Survey.new
   end
 
@@ -24,7 +25,8 @@ class SurveysController < ApplicationController
   # POST /surveys
   # POST /surveys.json
   def create
-    $LOG.debug{"Create new survey:" + survey_params.to_s}
+    $LOG.debug{"Create new survey:" + survey_params[:name].to_s}
+
     @survey = Survey.new(survey_params)
 
     respond_to do |format|
@@ -36,11 +38,14 @@ class SurveysController < ApplicationController
         format.json { render json: @survey.errors, status: :unprocessable_entity }
       end
     end
+    
   end
 
   # PATCH/PUT /surveys/1
   # PATCH/PUT /surveys/1.json
   def update
+    $LOG.debug{"Update survey:" + survey_params[:name].to_s}
+
     respond_to do |format|
       if @survey.update(survey_params)
         format.html { redirect_to @survey, notice: 'Survey was successfully updated.' }
@@ -55,6 +60,8 @@ class SurveysController < ApplicationController
   # DELETE /surveys/1
   # DELETE /surveys/1.json
   def destroy
+    $LOG.debug{"Delete survey:" + survey_params[:name].to_s}
+
     @survey.destroy
     respond_to do |format|
       format.html { redirect_to surveys_url, notice: 'Survey was successfully destroyed.' }
