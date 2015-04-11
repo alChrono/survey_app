@@ -1,10 +1,10 @@
 == Survey App
 
 * Prerequisite
-	- Finish Rails tutorial
-	- Read Rails unit, functional and integration testing tutorial
-	- Setup Rails app
-	- Push to
+	* Finish Rails tutorial
+	* Read Rails unit, functional and integration testing tutorial
+	* Setup Rails app
+	* Push to
 * Requirements
 	- Create Survey
 	- Add questions
