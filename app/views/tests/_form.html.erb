@@ -13,11 +13,11 @@
 
   <div class="field">
     <%= f.label :survey %><br>
-    <%= f.text_field :survey %>
+    <%= f.collection_select(:survey_id, Survey.all, :id, :name) %>
   </div>
   <div class="field">
     <%= f.label :question %><br>
-    <%= f.text_field :question %>
+    <%= f.collection_select(:question_id, Question.all, :id, :question, {:selected => 1}, {:multiple => true}) %>
   </div>
   <div class="actions">
     <%= f.submit %>

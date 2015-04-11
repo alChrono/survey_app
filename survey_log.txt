@@ -1,20 +1,32 @@
-D, [2015-04-11T14:35:46.841533 #12371] DEBUG -- : 3
-D, [2015-04-11T14:35:46.841940 #12371] DEBUG -- : Fixnum
-D, [2015-04-11T14:36:23.015312 #12371] DEBUG -- : 3
-D, [2015-04-11T14:36:23.015606 #12371] DEBUG -- : Fixnum
-D, [2015-04-11T14:36:42.989224 #12371] DEBUG -- : 3
-D, [2015-04-11T14:36:42.989539 #12371] DEBUG -- : Fixnum
-D, [2015-04-11T14:36:59.601871 #12371] DEBUG -- : 3
-D, [2015-04-11T14:36:59.602238 #12371] DEBUG -- : Fixnum
-D, [2015-04-11T14:38:44.187073 #12371] DEBUG -- : {"utf8"=>"✓", "authenticity_token"=>"Jb0bbRBzbPsDDHrv388LMtGjpnq2AmxgU7EIXRfy+DcAEk9mOTLNJ6xRoLD1yaH+zSorVljf1nL06RnvmyT68Q==", "test"=>{"survey"=>"3", "question"=>"3"}, "commit"=>"Create Test", "controller"=>"tests", "action"=>"create"}
-D, [2015-04-11T14:40:30.516409 #12371] DEBUG -- : 3
-D, [2015-04-11T14:40:30.516462 #12371] DEBUG -- : 3
-D, [2015-04-11T14:44:30.278292 #12371] DEBUG -- : 3
-D, [2015-04-11T14:44:30.278345 #12371] DEBUG -- : 3
-D, [2015-04-11T14:47:30.952983 #12371] DEBUG -- : Start create new survey.
-D, [2015-04-11T14:47:33.543655 #12371] DEBUG -- : Start create new survey.
-D, [2015-04-11T14:47:35.430262 #12371] DEBUG -- : Start create new survey.
-D, [2015-04-11T14:47:54.206895 #12371] DEBUG -- : Start create new survey.
-D, [2015-04-11T14:47:56.085423 #12371] DEBUG -- : Start create new survey.
-D, [2015-04-11T14:47:58.100665 #12371] DEBUG -- : Start create new survey.
-D, [2015-04-11T14:47:59.912682 #12371] DEBUG -- : Start create new survey.
+D, [2015-04-11T15:43:29.565794 #16592] DEBUG -- : :survey
+D, [2015-04-11T15:45:18.337861 #16592] DEBUG -- : Start create new survey.
+D, [2015-04-11T15:45:22.552835 #16592] DEBUG -- : Create new survey:Patriots
+D, [2015-04-11T15:45:26.549840 #16592] DEBUG -- : Start create new survey.
+D, [2015-04-11T15:45:37.042141 #16592] DEBUG -- : Create new survey:Red Sox
+D, [2015-04-11T15:45:40.821622 #16592] DEBUG -- : Start create new survey.
+D, [2015-04-11T15:45:44.418614 #16592] DEBUG -- : Create new survey:Celtics
+D, [2015-04-11T15:45:49.181944 #16592] DEBUG -- : Start create new survey.
+D, [2015-04-11T15:45:55.453250 #16592] DEBUG -- : Create new survey:Bruins
+D, [2015-04-11T15:45:58.920729 #16592] DEBUG -- : Start create new survey.
+D, [2015-04-11T15:46:04.397081 #16592] DEBUG -- : Create new survey:Revolutions
+D, [2015-04-11T15:46:39.171772 #16592] DEBUG -- : :question
+D, [2015-04-11T15:46:39.172146 #16592] DEBUG -- : Create new question:{"question"=>"1", "answer_1"=>"1", "answer_2"=>"1", "answer_3"=>"1", "answer_4"=>"1", "answer_5"=>"1"}
+D, [2015-04-11T15:46:39.174966 #16592] DEBUG -- : :question
+D, [2015-04-11T15:46:49.011116 #16592] DEBUG -- : :question
+D, [2015-04-11T15:46:49.011553 #16592] DEBUG -- : Create new question:{"question"=>"2", "answer_1"=>"2", "answer_2"=>"2", "answer_3"=>"2", "answer_4"=>"2", "answer_5"=>"2"}
+D, [2015-04-11T15:46:49.011596 #16592] DEBUG -- : :question
+D, [2015-04-11T15:46:57.635358 #16592] DEBUG -- : :question
+D, [2015-04-11T15:46:57.635685 #16592] DEBUG -- : Create new question:{"question"=>"3", "answer_1"=>"3", "answer_2"=>"3", "answer_3"=>"3", "answer_4"=>"3", "answer_5"=>"3"}
+D, [2015-04-11T15:46:57.635742 #16592] DEBUG -- : :question
+D, [2015-04-11T15:47:05.129476 #16592] DEBUG -- : :question
+D, [2015-04-11T15:47:05.129771 #16592] DEBUG -- : Create new question:{"question"=>"4", "answer_1"=>"4", "answer_2"=>"4", "answer_3"=>"4", "answer_4"=>"4", "answer_5"=>"4"}
+D, [2015-04-11T15:47:05.129801 #16592] DEBUG -- : :question
+D, [2015-04-11T15:47:12.912719 #16592] DEBUG -- : :question
+D, [2015-04-11T15:47:12.913018 #16592] DEBUG -- : Create new question:{"question"=>"5", "answer_1"=>"5", "answer_2"=>"5", "answer_3"=>"5", "answer_4"=>"5", "answer_5"=>"5"}
+D, [2015-04-11T15:47:12.913137 #16592] DEBUG -- : :question
+D, [2015-04-11T15:47:20.819437 #16592] DEBUG -- : Params:   {"utf8"=>"✓", "authenticity_token"=>"HZ6wRPjXb1VWujoWle3uXyzkgGJZu0xkeDH4cGMDz3c4MeRP0ZbOifnn4Em/60STMG0NTrdm9nbfaenC79XNsQ==", "test"=>{"survey_id"=>"11", "question_id"=>["", "6"]}, "commit"=>"Create Test", "controller"=>"tests", "action"=>"create"}
+D, [2015-04-11T15:47:20.819532 #16592] DEBUG -- : Survey:   11
+D, [2015-04-11T15:47:20.819601 #16592] DEBUG -- : Question: ["", "6"]
+D, [2015-04-11T15:47:33.873541 #16592] DEBUG -- : Start create new survey.
+D, [2015-04-11T15:47:37.880272 #16592] DEBUG -- : Create new survey:Red Sox
+D, [2015-04-11T15:48:11.262711 #16592] DEBUG -- : Start create new survey.

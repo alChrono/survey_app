@@ -24,9 +24,15 @@ class TestsController < ApplicationController
   # POST /tests
   # POST /tests.json
   def create
-    $logger.debug {params[:test][:survey]}
-    $logger.debug {params[:test][:question]}
-    @test = Test.new(:survey_id => 3, :question_id => 3)
+    $logger.debug {"Params:   " + params.to_s}
+
+    $logger.debug {"Survey:   " + params[:test][:survey_id].to_s}
+    i_survey_id   = params[:test][:survey_id].to_i
+
+    $logger.debug {"Question: " + params[:test][:question_id].to_s}
+    i_question_id = params[:test][:question_id][1].to_i
+
+    @test = Test.new(:survey_id => i_survey_id, :question_id => i_question_id)
 
     respond_to do |format|
       if @test.save

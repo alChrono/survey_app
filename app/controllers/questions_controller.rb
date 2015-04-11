@@ -24,7 +24,7 @@ class QuestionsController < ApplicationController
   # POST /questions
   # POST /questions.json
   def create
-    $LOG.debug{"Create new question:" + question_params.to_s}
+    $logger.debug{"Create new question:" + question_params.to_s}
     @question = Question.new(question_params)
 
     respond_to do |format|
@@ -70,6 +70,7 @@ class QuestionsController < ApplicationController
 
     # Never trust parameters from the scary internet, only allow the white list through.
     def question_params
+      $logger.debug{:question}
       params.require(:question).permit(:question, :answer_1, :answer_2, :answer_3, :answer_4, :answer_5)
     end
 end
