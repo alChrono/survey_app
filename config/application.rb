@@ -7,7 +7,7 @@ require 'logger'
 # you've limited to :test, :development, or :production.
 Bundler.require(*Rails.groups)
 
-$LOG = Logger.new("survey_log.txt", 10, 1024000)
+$logger = Logger.new("survey_log.txt", 10, 1024000)
 
 module SurveyApp
   class Application < Rails::Application

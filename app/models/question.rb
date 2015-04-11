@@ -1,6 +1,8 @@
 class Question < ActiveRecord::Base
-	validates :question, :presence => true
-	validates :answer_1, :presence => true
+	has_many 	:tests, dependent: :destroy
+	has_many 	:surveys, 	:through => :tests
+	validates 	:question, 	:presence => true
+	validates 	:answer_1, 	:presence => true
 	#@validates :answer_2
 	#validates :answer_3
 	#validates :answer_4

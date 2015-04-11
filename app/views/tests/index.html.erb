@@ -1,22 +1,24 @@
 <p id="notice"><%= notice %></p>
 
-<h1>Listing Surveys</h1>
+<h1>Listing Tests</h1>
 
 <table>
   <thead>
     <tr>
-      <th>Name</th>
+      <th>Survey</th>
+      <th>Question</th>
       <th colspan="3"></th>
     </tr>
   </thead>
 
   <tbody>
-    <% @surveys.each do |survey| %>
+    <% @tests.each do |test| %>
       <tr>
-        <td><%= survey.name %></td>
-        <td><%= link_to 'Show', survey %></td>
-        <td><%= link_to 'Edit', edit_survey_path(survey) %></td>
-        <td><%= link_to 'Destroy', survey, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+        <td><%= test.survey.name unless test.survey.nil? %></td>
+        <td><%= test.question.question unless test.question.nil? %></td>
+        <td><%= link_to 'Show', test %></td>
+        <td><%= link_to 'Edit', edit_test_path(test) %></td>
+        <td><%= link_to 'Destroy', test, method: :delete, data: { confirm: 'Are you sure?' } %></td>
       </tr>
     <% end %>
   </tbody>

@@ -1,8 +1,20 @@
-D, [2015-04-11T10:56:53.360375 #10329] DEBUG -- : Start create new survey
-D, [2015-04-11T10:57:52.216866 #10329] DEBUG -- : Create new question:{"question"=>"1", "answer_1"=>"", "answer_2"=>"1", "answer_3"=>"1", "answer_4"=>"", "answer_5"=>""}
-D, [2015-04-11T10:57:57.736034 #10329] DEBUG -- : Create new question:{"question"=>"1", "answer_1"=>"", "answer_2"=>"1", "answer_3"=>"1", "answer_4"=>"", "answer_5"=>""}
-D, [2015-04-11T10:58:21.350893 #10329] DEBUG -- : Create new question:{"question"=>"1", "answer_1"=>"", "answer_2"=>"1", "answer_3"=>"1", "answer_4"=>"", "answer_5"=>""}
-D, [2015-04-11T10:58:24.281158 #10329] DEBUG -- : Create new question:{"question"=>"1", "answer_1"=>"1", "answer_2"=>"1", "answer_3"=>"1", "answer_4"=>"", "answer_5"=>""}
-D, [2015-04-11T10:58:36.723367 #10329] DEBUG -- : Create new question:{"question"=>"5", "answer_1"=>"5", "answer_2"=>"", "answer_3"=>"", "answer_4"=>"5", "answer_5"=>"5"}
-D, [2015-04-11T10:58:44.665081 #10329] DEBUG -- : Start create new survey.
-D, [2015-04-11T10:58:47.448228 #10329] DEBUG -- : Start create new survey.
+D, [2015-04-11T14:35:46.841533 #12371] DEBUG -- : 3
+D, [2015-04-11T14:35:46.841940 #12371] DEBUG -- : Fixnum
+D, [2015-04-11T14:36:23.015312 #12371] DEBUG -- : 3
+D, [2015-04-11T14:36:23.015606 #12371] DEBUG -- : Fixnum
+D, [2015-04-11T14:36:42.989224 #12371] DEBUG -- : 3
+D, [2015-04-11T14:36:42.989539 #12371] DEBUG -- : Fixnum
+D, [2015-04-11T14:36:59.601871 #12371] DEBUG -- : 3
+D, [2015-04-11T14:36:59.602238 #12371] DEBUG -- : Fixnum
+D, [2015-04-11T14:38:44.187073 #12371] DEBUG -- : {"utf8"=>"✓", "authenticity_token"=>"Jb0bbRBzbPsDDHrv388LMtGjpnq2AmxgU7EIXRfy+DcAEk9mOTLNJ6xRoLD1yaH+zSorVljf1nL06RnvmyT68Q==", "test"=>{"survey"=>"3", "question"=>"3"}, "commit"=>"Create Test", "controller"=>"tests", "action"=>"create"}
+D, [2015-04-11T14:40:30.516409 #12371] DEBUG -- : 3
+D, [2015-04-11T14:40:30.516462 #12371] DEBUG -- : 3
+D, [2015-04-11T14:44:30.278292 #12371] DEBUG -- : 3
+D, [2015-04-11T14:44:30.278345 #12371] DEBUG -- : 3
+D, [2015-04-11T14:47:30.952983 #12371] DEBUG -- : Start create new survey.
+D, [2015-04-11T14:47:33.543655 #12371] DEBUG -- : Start create new survey.
+D, [2015-04-11T14:47:35.430262 #12371] DEBUG -- : Start create new survey.
+D, [2015-04-11T14:47:54.206895 #12371] DEBUG -- : Start create new survey.
+D, [2015-04-11T14:47:56.085423 #12371] DEBUG -- : Start create new survey.
+D, [2015-04-11T14:47:58.100665 #12371] DEBUG -- : Start create new survey.
+D, [2015-04-11T14:47:59.912682 #12371] DEBUG -- : Start create new survey.
