@@ -1,0 +1,37 @@
+== Survey App
+
+* Prerequisite
+	- Finish Rails tutorial
+	- Read Rails unit, functional and integration testing tutorial
+	- Setup Rails app
+	- Push to
+* Requirements
+	- Create Survey
+	- Add questions
+	- Add multiple choice answers
+	- Design and describe survey taking
+* Important
+	- Models
+	- Controllers
+	- Unit tests
+* Unimportant
+	- UI design
+
+* Ruby version
+	Ruby 	2.2.1p85
+	Raisl	4.2.1
+
+* System dependencies
+
+* Configuration
+
+* Database creation
+
+* Database initialization
+
+* How to run the test suite
+
+* Services (job queues, cache servers, search engines, etc.)
+
+* Deployment instructions
+
