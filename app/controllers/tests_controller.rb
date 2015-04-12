@@ -41,6 +41,7 @@ class TestsController < ApplicationController
 
         # create a new record and save it 
         @test = Test.new(:survey_id => i_survey_id, :question_id => i_question_id)
+        #@test = Test.new(:survey_id => 55, :question_id => 55)
         @test.save
 
         # render the page again and display errors if any

@@ -18,10 +18,11 @@ class TestsControllerTest < ActionController::TestCase
 
   test "should create test" do
     assert_difference('Test.count') do
-      post :create, test: { question: @test.question, survey: @test.survey }
+      post :create, test: {survey: "1", question: "2"}
     end
 
-    assert_redirected_to test_path(assigns(:test))
+    # no redirect success reloads survey question list
+    assert_response :success
   end
 
   test "should show test" do
@@ -34,10 +35,13 @@ class TestsControllerTest < ActionController::TestCase
     assert_response :success
   end
 
+=begin
+  # Update should not work.  Items are deleted and removed from Survey Tests.
   test "should update test" do
     patch :update, id: @test, test: { question: @test.question, survey: @test.survey }
     assert_redirected_to test_path(assigns(:test))
   end
+=end
 
   test "should destroy test" do
     assert_difference('Test.count', -1) do

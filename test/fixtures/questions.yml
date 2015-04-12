@@ -1,17 +1,17 @@
 # Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
 
 one:
-  question: MyString
-  answer_1: MyString
-  answer_2: MyString
-  answer_3: MyString
-  answer_4: MyString
-  answer_5: MyString
+  question: Who won the Superbowl XLIX?
+  answer_1: Patriots
+  answer_2: Jets
+  answer_3: Seahawks
+  answer_4: Broncos
+  answer_5: Packers
 
 two:
-  question: MyString
-  answer_1: MyString
-  answer_2: MyString
-  answer_3: MyString
-  answer_4: MyString
-  answer_5: MyString
+  question: Who is Big Papi?
+  answer_1: John Smoltz
+  answer_2: Dustin Pedroia
+  answer_3: Mo Vaughn
+  answer_4: David Ortiz
+  answer_5: Big Who?

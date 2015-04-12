@@ -12,7 +12,6 @@
   <% end %>
 
   <div class="field">
-    <%= $logger.debug{"Session ID - #{session[:survey]}"} %>
     <%= f.label :survey %><br>
     <%= f.collection_select(:survey_id, Survey.all, :id, :name, :selected => session[:survey]) %>
     <%= f.submit "Load Selected Survey"%>

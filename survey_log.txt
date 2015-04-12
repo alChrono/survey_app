@@ -1,31 +1,63 @@
-D, [2015-04-12T14:36:16.673133 #2626] DEBUG -- : Reload survey ID 17.
-D, [2015-04-12T14:36:57.428596 #2626] DEBUG -- : {"utf8"=>"✓", "authenticity_token"=>"J0GLKlXc8Vjxge0av2yiGkJM5OOKNQ/FvYobl7xA8SYyAGnV1wHmVfDz3HojwH4kKFoxtlsj+mZy1b95RmpG8w==", "test"=>{"survey_id"=>"17", "question_id"=>"10"}, "commit"=>"Load Selected Survey", "controller"=>"tests", "action"=>"create"}
-D, [2015-04-12T14:36:57.428681 #2626] DEBUG -- : Reload survey ID 17.
-D, [2015-04-12T14:40:00.773526 #2626] DEBUG -- : Session ID - 17
-D, [2015-04-12T14:40:11.649267 #2626] DEBUG -- : {"utf8"=>"✓", "authenticity_token"=>"Gzi+lkHnJrgedbwTS9GP/hkQM92dsGY/fgYasHldx9EOeVxpwzoxtR8HjXPXfVPAcwbmiEymk5yxWb5eg3dwBA==", "test"=>{"survey_id"=>"17", "question_id"=>"10"}, "commit"=>"Load Selected Survey", "controller"=>"tests", "action"=>"create"}
-D, [2015-04-12T14:40:11.649349 #2626] DEBUG -- : Reload survey ID 17.
-D, [2015-04-12T14:40:11.659718 #2626] DEBUG -- : Session ID - 17
-D, [2015-04-12T14:40:21.867826 #2626] DEBUG -- : {"utf8"=>"✓", "authenticity_token"=>"VxTsIojpCEuFB5GOjheM7IvB3AB4ux5Bj0wqckK0d9VCVQ7dCjQfRoR1oO4Su1DS4dcJVamt6+JAE46cuJ7AAA==", "test"=>{"survey_id"=>"17", "question_id"=>"13"}, "commit"=>"Add Question", "controller"=>"tests", "action"=>"create"}
-D, [2015-04-12T14:40:21.867914 #2626] DEBUG -- : Add question ID 13 to survey ID 17.
-D, [2015-04-12T14:40:22.406845 #2626] DEBUG -- : Session ID - 17
-D, [2015-04-12T14:40:39.693837 #2626] DEBUG -- : Start create new survey.
-D, [2015-04-12T14:40:44.346276 #2626] DEBUG -- : Create new survey:Bruins
-D, [2015-04-12T14:40:47.770493 #2626] DEBUG -- : Session ID - 17
-D, [2015-04-12T14:40:52.057206 #2626] DEBUG -- : {"utf8"=>"✓", "authenticity_token"=>"fGZnL7wFzNUUPpd4mag3ifzqvc5hdeq3+XvyTbb3+0RpJ4XQPtjb2BVMphgFBOu3lvxom7BjHxQ2JFajTN1MkQ==", "test"=>{"survey_id"=>"16", "question_id"=>"10"}, "commit"=>"Load Selected Survey", "controller"=>"tests", "action"=>"create"}
-D, [2015-04-12T14:40:52.057285 #2626] DEBUG -- : Reload survey ID 16.
-D, [2015-04-12T14:40:52.064133 #2626] DEBUG -- : Session ID - 16
-D, [2015-04-12T14:40:57.234522 #2626] DEBUG -- : {"utf8"=>"✓", "authenticity_token"=>"fObdwL22ETJL3Xk/0XjFuvZi2Fx/jNv4SUkPDhgQZeJppz8/P2sGP0qvSF9N1BmEnHQNCa6aLluGFqvg4jrSNw==", "test"=>{"survey_id"=>"16", "question_id"=>"12"}, "commit"=>"Add Question", "controller"=>"tests", "action"=>"create"}
-D, [2015-04-12T14:40:57.234743 #2626] DEBUG -- : Add question ID 12 to survey ID 16.
-D, [2015-04-12T14:40:57.884384 #2626] DEBUG -- : Session ID - 16
-D, [2015-04-12T14:41:06.041524 #2626] DEBUG -- : Session ID - 16
-D, [2015-04-12T14:41:08.977066 #2626] DEBUG -- : {"utf8"=>"✓", "authenticity_token"=>"zqQPRiO0bUwMrpwGaCllwbjMyezRZEQAFIFipWBIlLnb5e25oWl6QQ3crWb0hbn/0tocuQBysaPb3sZLmmIjbA==", "test"=>{"survey_id"=>"18", "question_id"=>"10"}, "commit"=>"Load Selected Survey", "controller"=>"tests", "action"=>"create"}
-D, [2015-04-12T14:41:08.977144 #2626] DEBUG -- : Reload survey ID 18.
-D, [2015-04-12T14:41:08.984032 #2626] DEBUG -- : Session ID - 18
-D, [2015-04-12T14:41:11.215780 #2626] DEBUG -- : Session ID - 18
-D, [2015-04-12T14:41:17.310950 #2626] DEBUG -- : {"utf8"=>"✓", "authenticity_token"=>"2xW93dNUIBGL6VM9s04eizrQao6BE6/3Twn1Rhp9KHnOVF8iUYk3HIqbYl0v4sK1UMa/21AFWlSAVlGo4FefrA==", "test"=>{"survey_id"=>"18", "question_id"=>"11"}, "commit"=>"Add Question", "controller"=>"tests", "action"=>"create"}
-D, [2015-04-12T14:41:17.311039 #2626] DEBUG -- : Add question ID 11 to survey ID 18.
-D, [2015-04-12T14:41:17.316428 #2626] DEBUG -- : Session ID - 18
-D, [2015-04-12T14:41:21.391864 #2626] DEBUG -- : Session ID - 18
-D, [2015-04-12T14:41:25.705076 #2626] DEBUG -- : {"utf8"=>"✓", "authenticity_token"=>"EMRiqjLbfmdNr4IZ1Mipwgreo1EAIZi3uaG0hzuvCEsFhYBVsAZpakzds3lIZHX8YMh2BNE3bRR2/hBpwYW/ng==", "test"=>{"survey_id"=>"16", "question_id"=>"10"}, "commit"=>"Load Selected Survey", "controller"=>"tests", "action"=>"create"}
-D, [2015-04-12T14:41:25.705166 #2626] DEBUG -- : Reload survey ID 16.
-D, [2015-04-12T14:41:25.710897 #2626] DEBUG -- : Session ID - 16
+D, [2015-04-12T19:22:01.845856 #8481] DEBUG -- : {"test"=>{"survey"=>"1", "question"=>"2"}, "controller"=>"tests", "action"=>"create"}
+D, [2015-04-12T19:22:01.845972 #8481] DEBUG -- : Add question ID 0 to survey ID 0.
+D, [2015-04-12T19:22:01.856205 #8481] DEBUG -- : Update survey:Patriots
+D, [2015-04-12T19:22:01.873215 #8481] DEBUG -- : Create new survey:Bears
+D, [2015-04-12T19:22:01.882319 #8481] DEBUG -- : Start create new survey.
+D, [2015-04-12T19:22:01.943901 #8481] DEBUG -- : :question
+D, [2015-04-12T19:22:01.944168 #8481] DEBUG -- : Create new question:{"question"=>"Who won the Superbowl XLIX?", "answer_1"=>"Patriots", "answer_2"=>"Jets", "answer_3"=>"Seahawks", "answer_4"=>"Broncos", "answer_5"=>"Packers"}
+D, [2015-04-12T19:22:01.944202 #8481] DEBUG -- : :question
+D, [2015-04-12T19:22:01.949468 #8481] DEBUG -- : :question
+D, [2015-04-12T19:22:35.300770 #8516] DEBUG -- : Create new survey:Bears
+D, [2015-04-12T19:22:35.336417 #8516] DEBUG -- : Start create new survey.
+D, [2015-04-12T19:22:35.348263 #8516] DEBUG -- : Update survey:Patriots
+D, [2015-04-12T19:22:35.417768 #8516] DEBUG -- : {"test"=>{"survey"=>"1", "question"=>"2"}, "controller"=>"tests", "action"=>"create"}
+D, [2015-04-12T19:22:35.417866 #8516] DEBUG -- : Add question ID 0 to survey ID 0.
+D, [2015-04-12T19:22:35.435290 #8516] DEBUG -- : :question
+D, [2015-04-12T19:22:35.435547 #8516] DEBUG -- : Create new question:{"question"=>"Who won the Superbowl XLIX?", "answer_1"=>"Patriots", "answer_2"=>"Jets", "answer_3"=>"Seahawks", "answer_4"=>"Broncos", "answer_5"=>"Packers"}
+D, [2015-04-12T19:22:35.435579 #8516] DEBUG -- : :question
+D, [2015-04-12T19:22:35.464908 #8516] DEBUG -- : :question
+D, [2015-04-12T19:24:51.527186 #8546] DEBUG -- : :question
+D, [2015-04-12T19:24:51.527483 #8546] DEBUG -- : Create new question:{"question"=>"Who won the Superbowl XLIX?", "answer_1"=>"Patriots", "answer_2"=>"Jets", "answer_3"=>"Seahawks", "answer_4"=>"Broncos", "answer_5"=>"Packers"}
+D, [2015-04-12T19:24:51.527523 #8546] DEBUG -- : :question
+D, [2015-04-12T19:24:51.543509 #8546] DEBUG -- : :question
+D, [2015-04-12T19:24:51.584553 #8546] DEBUG -- : Create new survey:Bears
+D, [2015-04-12T19:24:51.604951 #8546] DEBUG -- : Start create new survey.
+D, [2015-04-12T19:24:51.609416 #8546] DEBUG -- : Update survey:Patriots
+D, [2015-04-12T19:24:51.619858 #8546] DEBUG -- : {"test"=>{"survey"=>"1", "question"=>"2"}, "controller"=>"tests", "action"=>"create"}
+D, [2015-04-12T19:24:51.619968 #8546] DEBUG -- : Add question ID 0 to survey ID 0.
+D, [2015-04-12T19:25:05.899670 #8560] DEBUG -- : Start create new survey.
+D, [2015-04-12T19:25:05.917984 #8560] DEBUG -- : Create new survey:Bears
+D, [2015-04-12T19:25:05.929309 #8560] DEBUG -- : Update survey:Patriots
+D, [2015-04-12T19:25:05.960025 #8560] DEBUG -- : :question
+D, [2015-04-12T19:25:05.960283 #8560] DEBUG -- : Create new question:{"question"=>"Who won the Superbowl XLIX?", "answer_1"=>"Patriots", "answer_2"=>"Jets", "answer_3"=>"Seahawks", "answer_4"=>"Broncos", "answer_5"=>"Packers"}
+D, [2015-04-12T19:25:05.960318 #8560] DEBUG -- : :question
+D, [2015-04-12T19:25:05.965812 #8560] DEBUG -- : :question
+D, [2015-04-12T19:25:06.016406 #8560] DEBUG -- : {"test"=>{"survey"=>"1", "question"=>"2"}, "controller"=>"tests", "action"=>"create"}
+D, [2015-04-12T19:25:06.016504 #8560] DEBUG -- : Add question ID 0 to survey ID 0.
+D, [2015-04-12T19:25:41.294043 #8590] DEBUG -- : Start create new survey.
+D, [2015-04-12T19:25:41.320618 #8590] DEBUG -- : Create new survey:Bears
+D, [2015-04-12T19:25:41.354841 #8590] DEBUG -- : Update survey:Patriots
+D, [2015-04-12T19:25:41.369288 #8590] DEBUG -- : {"test"=>{"survey"=>"1", "question"=>"2"}, "controller"=>"tests", "action"=>"create"}
+D, [2015-04-12T19:25:41.369388 #8590] DEBUG -- : Add question ID 0 to survey ID 0.
+D, [2015-04-12T19:25:41.423129 #8590] DEBUG -- : :question
+D, [2015-04-12T19:25:41.423386 #8590] DEBUG -- : Create new question:{"question"=>"Who won the Superbowl XLIX?", "answer_1"=>"Patriots", "answer_2"=>"Jets", "answer_3"=>"Seahawks", "answer_4"=>"Broncos", "answer_5"=>"Packers"}
+D, [2015-04-12T19:25:41.423420 #8590] DEBUG -- : :question
+D, [2015-04-12T19:25:41.433498 #8590] DEBUG -- : :question
+D, [2015-04-12T19:26:00.604321 #8611] DEBUG -- : {"test"=>{"survey"=>"1", "question"=>"2"}, "controller"=>"tests", "action"=>"create"}
+D, [2015-04-12T19:26:00.604428 #8611] DEBUG -- : Add question ID 0 to survey ID 0.
+D, [2015-04-12T19:26:00.623949 #8611] DEBUG -- : :question
+D, [2015-04-12T19:26:00.624231 #8611] DEBUG -- : Create new question:{"question"=>"Who won the Superbowl XLIX?", "answer_1"=>"Patriots", "answer_2"=>"Jets", "answer_3"=>"Seahawks", "answer_4"=>"Broncos", "answer_5"=>"Packers"}
+D, [2015-04-12T19:26:00.624266 #8611] DEBUG -- : :question
+D, [2015-04-12T19:26:00.639006 #8611] DEBUG -- : :question
+D, [2015-04-12T19:26:00.691547 #8611] DEBUG -- : Create new survey:Bears
+D, [2015-04-12T19:26:00.712675 #8611] DEBUG -- : Start create new survey.
+D, [2015-04-12T19:26:00.724435 #8611] DEBUG -- : Update survey:Patriots
+D, [2015-04-12T19:26:48.485110 #8634] DEBUG -- : :question
+D, [2015-04-12T19:26:48.485383 #8634] DEBUG -- : Create new question:{"question"=>"Who won the Superbowl XLIX?", "answer_1"=>"Patriots", "answer_2"=>"Jets", "answer_3"=>"Seahawks", "answer_4"=>"Broncos", "answer_5"=>"Packers"}
+D, [2015-04-12T19:26:48.485418 #8634] DEBUG -- : :question
+D, [2015-04-12T19:26:48.500910 #8634] DEBUG -- : :question
+D, [2015-04-12T19:26:48.519652 #8634] DEBUG -- : Create new survey:Bears
+D, [2015-04-12T19:26:48.524769 #8634] DEBUG -- : Update survey:Patriots
+D, [2015-04-12T19:26:48.539459 #8634] DEBUG -- : Start create new survey.
+D, [2015-04-12T19:26:48.549643 #8634] DEBUG -- : {"test"=>{"survey"=>"1", "question"=>"2"}, "controller"=>"tests", "action"=>"create"}
+D, [2015-04-12T19:26:48.549735 #8634] DEBUG -- : Add question ID 0 to survey ID 0.

@@ -2,12 +2,12 @@
 
 <p>
   <strong>Survey:</strong>
-  <%= @test.survey.name %>
+  <%= @test.survey.name unless @test.survey.nil? %>
 </p>
 
 <p>
   <strong>Question:</strong>
-  <%= @test.question.question %>
+  <%= @test.question.question unless @test.survey.nil? %>
 </p>
 
 <%= link_to 'Edit', edit_test_path(@test) %> |
