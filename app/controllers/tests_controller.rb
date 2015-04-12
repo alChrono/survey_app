@@ -24,21 +24,19 @@ class TestsController < ApplicationController
   # POST /tests
   # POST /tests.json
   def create
-    $logger.debug {"Params:   " + params.to_s}
-
-    $logger.debug {"Survey:   " + params[:test][:survey_id].to_s}
     i_survey_id   = params[:test][:survey_id].to_i
+    i_question_id = params[:test][:question_id].to_i
 
-    $logger.debug {"Question: " + params[:test][:question_id].to_s}
-    i_question_id = params[:test][:question_id][1].to_i
+    if params[:commit] == "Load Selected Survey"
+      $logger.debug {"Reload survey."}
+      session[:survey] =  i_survey_id 
+      redirect_to :back 
+    else
+      respond_to do |format|
+        $logger.debug {"Add question to survey."}
+        @test = Test.new(:survey_id => i_survey_id, :question_id => i_question_id)
+        @test.save
 
-    @test = Test.new(:survey_id => i_survey_id, :question_id => i_question_id)
-
-    respond_to do |format|
-      if @test.save
-        format.html { redirect_to @test, notice: 'Test was successfully created.' }
-        format.json { render :show, status: :created, location: @test }
-      else
         format.html { render :new }
         format.json { render json: @test.errors, status: :unprocessable_entity }
       end

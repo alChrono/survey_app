@@ -1,32 +1,15 @@
-D, [2015-04-11T15:43:29.565794 #16592] DEBUG -- : :survey
-D, [2015-04-11T15:45:18.337861 #16592] DEBUG -- : Start create new survey.
-D, [2015-04-11T15:45:22.552835 #16592] DEBUG -- : Create new survey:Patriots
-D, [2015-04-11T15:45:26.549840 #16592] DEBUG -- : Start create new survey.
-D, [2015-04-11T15:45:37.042141 #16592] DEBUG -- : Create new survey:Red Sox
-D, [2015-04-11T15:45:40.821622 #16592] DEBUG -- : Start create new survey.
-D, [2015-04-11T15:45:44.418614 #16592] DEBUG -- : Create new survey:Celtics
-D, [2015-04-11T15:45:49.181944 #16592] DEBUG -- : Start create new survey.
-D, [2015-04-11T15:45:55.453250 #16592] DEBUG -- : Create new survey:Bruins
-D, [2015-04-11T15:45:58.920729 #16592] DEBUG -- : Start create new survey.
-D, [2015-04-11T15:46:04.397081 #16592] DEBUG -- : Create new survey:Revolutions
-D, [2015-04-11T15:46:39.171772 #16592] DEBUG -- : :question
-D, [2015-04-11T15:46:39.172146 #16592] DEBUG -- : Create new question:{"question"=>"1", "answer_1"=>"1", "answer_2"=>"1", "answer_3"=>"1", "answer_4"=>"1", "answer_5"=>"1"}
-D, [2015-04-11T15:46:39.174966 #16592] DEBUG -- : :question
-D, [2015-04-11T15:46:49.011116 #16592] DEBUG -- : :question
-D, [2015-04-11T15:46:49.011553 #16592] DEBUG -- : Create new question:{"question"=>"2", "answer_1"=>"2", "answer_2"=>"2", "answer_3"=>"2", "answer_4"=>"2", "answer_5"=>"2"}
-D, [2015-04-11T15:46:49.011596 #16592] DEBUG -- : :question
-D, [2015-04-11T15:46:57.635358 #16592] DEBUG -- : :question
-D, [2015-04-11T15:46:57.635685 #16592] DEBUG -- : Create new question:{"question"=>"3", "answer_1"=>"3", "answer_2"=>"3", "answer_3"=>"3", "answer_4"=>"3", "answer_5"=>"3"}
-D, [2015-04-11T15:46:57.635742 #16592] DEBUG -- : :question
-D, [2015-04-11T15:47:05.129476 #16592] DEBUG -- : :question
-D, [2015-04-11T15:47:05.129771 #16592] DEBUG -- : Create new question:{"question"=>"4", "answer_1"=>"4", "answer_2"=>"4", "answer_3"=>"4", "answer_4"=>"4", "answer_5"=>"4"}
-D, [2015-04-11T15:47:05.129801 #16592] DEBUG -- : :question
-D, [2015-04-11T15:47:12.912719 #16592] DEBUG -- : :question
-D, [2015-04-11T15:47:12.913018 #16592] DEBUG -- : Create new question:{"question"=>"5", "answer_1"=>"5", "answer_2"=>"5", "answer_3"=>"5", "answer_4"=>"5", "answer_5"=>"5"}
-D, [2015-04-11T15:47:12.913137 #16592] DEBUG -- : :question
-D, [2015-04-11T15:47:20.819437 #16592] DEBUG -- : Params:   {"utf8"=>"✓", "authenticity_token"=>"HZ6wRPjXb1VWujoWle3uXyzkgGJZu0xkeDH4cGMDz3c4MeRP0ZbOifnn4Em/60STMG0NTrdm9nbfaenC79XNsQ==", "test"=>{"survey_id"=>"11", "question_id"=>["", "6"]}, "commit"=>"Create Test", "controller"=>"tests", "action"=>"create"}
-D, [2015-04-11T15:47:20.819532 #16592] DEBUG -- : Survey:   11
-D, [2015-04-11T15:47:20.819601 #16592] DEBUG -- : Question: ["", "6"]
-D, [2015-04-11T15:47:33.873541 #16592] DEBUG -- : Start create new survey.
-D, [2015-04-11T15:47:37.880272 #16592] DEBUG -- : Create new survey:Red Sox
-D, [2015-04-11T15:48:11.262711 #16592] DEBUG -- : Start create new survey.
+D, [2015-04-11T23:48:24.650111 #16592] DEBUG -- : Inside ERB
+D, [2015-04-11T23:48:41.729301 #16592] DEBUG -- : Reload survey.
+D, [2015-04-11T23:48:41.738105 #16592] DEBUG -- : Inside ERB
+D, [2015-04-11T23:50:41.139915 #16592] DEBUG -- : nil
+D, [2015-04-11T23:54:56.990462 #2626] DEBUG -- : nil
+D, [2015-04-11T23:55:04.623317 #2626] DEBUG -- : Reload survey.
+D, [2015-04-11T23:55:04.634788 #2626] DEBUG -- : 16
+D, [2015-04-11T23:55:50.971160 #2626] DEBUG -- : 16
+D, [2015-04-11T23:56:36.692014 #2626] DEBUG -- : 16
+D, [2015-04-11T23:59:30.266981 #2626] DEBUG -- : 16
+D, [2015-04-12T00:01:17.237077 #2626] DEBUG -- : Add question to survey.
+D, [2015-04-12T00:01:22.726532 #2626] DEBUG -- : Add question to survey.
+D, [2015-04-12T00:01:34.033772 #2626] DEBUG -- : Add question to survey.
+D, [2015-04-12T00:02:16.117274 #2626] DEBUG -- : Add question to survey.
+D, [2015-04-12T00:02:41.978630 #2626] DEBUG -- : Add question to survey.

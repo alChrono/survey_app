@@ -14,12 +14,18 @@
   <div class="field">
     <%= f.label :survey %><br>
     <%= f.collection_select(:survey_id, Survey.all, :id, :name) %>
+    <%= f.submit "Load Selected Survey"%>
+  </div>
+  <div>
+    Current Questions in survey: <br>
+    <%=select_tag(:test, options_from_collection_for_select(Test.where(survey_id: session[:survey]), :id, :question_id),:multiple =>false,:size => 8,:class=> "text")%>
   </div>
   <div class="field">
     <%= f.label :question %><br>
-    <%= f.collection_select(:question_id, Question.all, :id, :question, {:selected => 1}, {:multiple => true}) %>
+    <%= f.collection_select(:question_id, Question.all, :id, :question) %>
+    <%= f.submit "Add Question"%>
   </div>
   <div class="actions">
-    <%= f.submit %>
+    
   </div>
 <% end %>
