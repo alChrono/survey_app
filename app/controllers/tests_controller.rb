@@ -24,19 +24,26 @@ class TestsController < ApplicationController
   # POST /tests
   # POST /tests.json
   def create
+    $logger.debug{params}
     i_survey_id   = params[:test][:survey_id].to_i
     i_question_id = params[:test][:question_id].to_i
 
     if params[:commit] == "Load Selected Survey"
-      $logger.debug {"Reload survey."}
-      session[:survey] =  i_survey_id 
+      $logger.debug {"Reload survey ID #{i_survey_id}."}
+
+      # store the survey ID so we can load the questions in the survey 
+      # after page is reloaded
+      session[:survey] =  i_survey_id   
       redirect_to :back 
     else
       respond_to do |format|
-        $logger.debug {"Add question to survey."}
+        $logger.debug{"Add question ID #{i_question_id} to survey ID #{i_survey_id}."}
+
+        # create a new record and save it 
         @test = Test.new(:survey_id => i_survey_id, :question_id => i_question_id)
         @test.save
 
+        # render the page again and display errors if any
         format.html { render :new }
         format.json { render json: @test.errors, status: :unprocessable_entity }
       end

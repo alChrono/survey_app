@@ -1,15 +1,31 @@
-D, [2015-04-11T23:48:24.650111 #16592] DEBUG -- : Inside ERB
-D, [2015-04-11T23:48:41.729301 #16592] DEBUG -- : Reload survey.
-D, [2015-04-11T23:48:41.738105 #16592] DEBUG -- : Inside ERB
-D, [2015-04-11T23:50:41.139915 #16592] DEBUG -- : nil
-D, [2015-04-11T23:54:56.990462 #2626] DEBUG -- : nil
-D, [2015-04-11T23:55:04.623317 #2626] DEBUG -- : Reload survey.
-D, [2015-04-11T23:55:04.634788 #2626] DEBUG -- : 16
-D, [2015-04-11T23:55:50.971160 #2626] DEBUG -- : 16
-D, [2015-04-11T23:56:36.692014 #2626] DEBUG -- : 16
-D, [2015-04-11T23:59:30.266981 #2626] DEBUG -- : 16
-D, [2015-04-12T00:01:17.237077 #2626] DEBUG -- : Add question to survey.
-D, [2015-04-12T00:01:22.726532 #2626] DEBUG -- : Add question to survey.
-D, [2015-04-12T00:01:34.033772 #2626] DEBUG -- : Add question to survey.
-D, [2015-04-12T00:02:16.117274 #2626] DEBUG -- : Add question to survey.
-D, [2015-04-12T00:02:41.978630 #2626] DEBUG -- : Add question to survey.
+D, [2015-04-12T14:36:16.673133 #2626] DEBUG -- : Reload survey ID 17.
+D, [2015-04-12T14:36:57.428596 #2626] DEBUG -- : {"utf8"=>"✓", "authenticity_token"=>"J0GLKlXc8Vjxge0av2yiGkJM5OOKNQ/FvYobl7xA8SYyAGnV1wHmVfDz3HojwH4kKFoxtlsj+mZy1b95RmpG8w==", "test"=>{"survey_id"=>"17", "question_id"=>"10"}, "commit"=>"Load Selected Survey", "controller"=>"tests", "action"=>"create"}
+D, [2015-04-12T14:36:57.428681 #2626] DEBUG -- : Reload survey ID 17.
+D, [2015-04-12T14:40:00.773526 #2626] DEBUG -- : Session ID - 17
+D, [2015-04-12T14:40:11.649267 #2626] DEBUG -- : {"utf8"=>"✓", "authenticity_token"=>"Gzi+lkHnJrgedbwTS9GP/hkQM92dsGY/fgYasHldx9EOeVxpwzoxtR8HjXPXfVPAcwbmiEymk5yxWb5eg3dwBA==", "test"=>{"survey_id"=>"17", "question_id"=>"10"}, "commit"=>"Load Selected Survey", "controller"=>"tests", "action"=>"create"}
+D, [2015-04-12T14:40:11.649349 #2626] DEBUG -- : Reload survey ID 17.
+D, [2015-04-12T14:40:11.659718 #2626] DEBUG -- : Session ID - 17
+D, [2015-04-12T14:40:21.867826 #2626] DEBUG -- : {"utf8"=>"✓", "authenticity_token"=>"VxTsIojpCEuFB5GOjheM7IvB3AB4ux5Bj0wqckK0d9VCVQ7dCjQfRoR1oO4Su1DS4dcJVamt6+JAE46cuJ7AAA==", "test"=>{"survey_id"=>"17", "question_id"=>"13"}, "commit"=>"Add Question", "controller"=>"tests", "action"=>"create"}
+D, [2015-04-12T14:40:21.867914 #2626] DEBUG -- : Add question ID 13 to survey ID 17.
+D, [2015-04-12T14:40:22.406845 #2626] DEBUG -- : Session ID - 17
+D, [2015-04-12T14:40:39.693837 #2626] DEBUG -- : Start create new survey.
+D, [2015-04-12T14:40:44.346276 #2626] DEBUG -- : Create new survey:Bruins
+D, [2015-04-12T14:40:47.770493 #2626] DEBUG -- : Session ID - 17
+D, [2015-04-12T14:40:52.057206 #2626] DEBUG -- : {"utf8"=>"✓", "authenticity_token"=>"fGZnL7wFzNUUPpd4mag3ifzqvc5hdeq3+XvyTbb3+0RpJ4XQPtjb2BVMphgFBOu3lvxom7BjHxQ2JFajTN1MkQ==", "test"=>{"survey_id"=>"16", "question_id"=>"10"}, "commit"=>"Load Selected Survey", "controller"=>"tests", "action"=>"create"}
+D, [2015-04-12T14:40:52.057285 #2626] DEBUG -- : Reload survey ID 16.
+D, [2015-04-12T14:40:52.064133 #2626] DEBUG -- : Session ID - 16
+D, [2015-04-12T14:40:57.234522 #2626] DEBUG -- : {"utf8"=>"✓", "authenticity_token"=>"fObdwL22ETJL3Xk/0XjFuvZi2Fx/jNv4SUkPDhgQZeJppz8/P2sGP0qvSF9N1BmEnHQNCa6aLluGFqvg4jrSNw==", "test"=>{"survey_id"=>"16", "question_id"=>"12"}, "commit"=>"Add Question", "controller"=>"tests", "action"=>"create"}
+D, [2015-04-12T14:40:57.234743 #2626] DEBUG -- : Add question ID 12 to survey ID 16.
+D, [2015-04-12T14:40:57.884384 #2626] DEBUG -- : Session ID - 16
+D, [2015-04-12T14:41:06.041524 #2626] DEBUG -- : Session ID - 16
+D, [2015-04-12T14:41:08.977066 #2626] DEBUG -- : {"utf8"=>"✓", "authenticity_token"=>"zqQPRiO0bUwMrpwGaCllwbjMyezRZEQAFIFipWBIlLnb5e25oWl6QQ3crWb0hbn/0tocuQBysaPb3sZLmmIjbA==", "test"=>{"survey_id"=>"18", "question_id"=>"10"}, "commit"=>"Load Selected Survey", "controller"=>"tests", "action"=>"create"}
+D, [2015-04-12T14:41:08.977144 #2626] DEBUG -- : Reload survey ID 18.
+D, [2015-04-12T14:41:08.984032 #2626] DEBUG -- : Session ID - 18
+D, [2015-04-12T14:41:11.215780 #2626] DEBUG -- : Session ID - 18
+D, [2015-04-12T14:41:17.310950 #2626] DEBUG -- : {"utf8"=>"✓", "authenticity_token"=>"2xW93dNUIBGL6VM9s04eizrQao6BE6/3Twn1Rhp9KHnOVF8iUYk3HIqbYl0v4sK1UMa/21AFWlSAVlGo4FefrA==", "test"=>{"survey_id"=>"18", "question_id"=>"11"}, "commit"=>"Add Question", "controller"=>"tests", "action"=>"create"}
+D, [2015-04-12T14:41:17.311039 #2626] DEBUG -- : Add question ID 11 to survey ID 18.
+D, [2015-04-12T14:41:17.316428 #2626] DEBUG -- : Session ID - 18
+D, [2015-04-12T14:41:21.391864 #2626] DEBUG -- : Session ID - 18
+D, [2015-04-12T14:41:25.705076 #2626] DEBUG -- : {"utf8"=>"✓", "authenticity_token"=>"EMRiqjLbfmdNr4IZ1Mipwgreo1EAIZi3uaG0hzuvCEsFhYBVsAZpakzds3lIZHX8YMh2BNE3bRR2/hBpwYW/ng==", "test"=>{"survey_id"=>"16", "question_id"=>"10"}, "commit"=>"Load Selected Survey", "controller"=>"tests", "action"=>"create"}
+D, [2015-04-12T14:41:25.705166 #2626] DEBUG -- : Reload survey ID 16.
+D, [2015-04-12T14:41:25.710897 #2626] DEBUG -- : Session ID - 16
