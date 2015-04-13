@@ -10,11 +10,34 @@ class SurveysController < ApplicationController
   # GET /surveys/1
   # GET /surveys/1.json
   def show
+    $logger.debug{"Show surveys."}
+
+    survey_id =  params[:id]
+    @questions = Question.all
+
+    # get all the question_ids associated with the survey
+    @tests     = Test.select("question_id").where(survey_id: survey_id)
+
+    survey_questions = Array.new
+
+    @tests.each do |test|
+      $logger.debug {test.question_id}
+      survey_questions << test.question_id
+    end
+
+    $logger.debug{@survey_questions}
+
+    # get all the questions that are associated with the survey
+    # duplicate questions are ommited
+    @questions = Question.where("id in(?)", survey_questions).to_a
+
+    $logger.debug{"here"}
+    $logger.debug{@questions}
   end
 
   # GET /surveys/new
   def new
-    $logger.debug{"Start create new survey."}
+    $logger.debug{"New survey."}
     @survey = Survey.new
   end
 
@@ -25,7 +48,7 @@ class SurveysController < ApplicationController
   # POST /surveys
   # POST /surveys.json
   def create
-    $logger.debug{"Create new survey:" + survey_params[:name].to_s}
+    $logger.debug{"Create survey: #{survey_params[:name].to_s}"}
 
     @survey = Survey.new(survey_params)
 
@@ -44,7 +67,7 @@ class SurveysController < ApplicationController
   # PATCH/PUT /surveys/1
   # PATCH/PUT /surveys/1.json
   def update
-    $logger.debug{"Update survey:" + survey_params[:name].to_s}
+    $logger.debug{"Update survey."}
 
     respond_to do |format|
       if @survey.update(survey_params)
@@ -60,10 +83,24 @@ class SurveysController < ApplicationController
   # DELETE /surveys/1
   # DELETE /surveys/1.json
   def destroy
+    $logger.debug{"Destroy Survey."}
     @survey.destroy
     respond_to do |format|
       format.html { redirect_to surveys_url, notice: 'Survey was successfully destroyed.' }
       format.json { head :no_content }
+    end
+  end
+
+  def save_survey
+    $logger.debug{"Save survey."}
+    respond_to do |format|
+      if true
+        format.html { redirect_to surveys_url, notice: 'Survey was successfully completed.' }
+        format.json { render :show, status: :created, location: @survey }
+      else
+        format.html { render :new }
+        format.json { render json: @survey.errors, status: :unprocessable_entity }
+      end
     end
   end
 

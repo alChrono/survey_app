@@ -4,27 +4,30 @@ class TestsController < ApplicationController
   # GET /tests
   # GET /tests.json
   def index
+    $logger.debug{"Test index."}
     @tests = Test.all
   end
 
   # GET /tests/1
   # GET /tests/1.json
   def show
+    $logger.debug{"Show Test."}
   end
 
   # GET /tests/new
   def new
+    $logger.debug{"New Test."}
     @test = Test.new
   end
 
   # GET /tests/1/edit
   def edit
+      $logger.debug{"Edit Test."}
   end
 
   # POST /tests
   # POST /tests.json
   def create
-    $logger.debug{params}
     i_survey_id   = params[:test][:survey_id].to_i
     i_question_id = params[:test][:question_id].to_i
 
@@ -54,6 +57,8 @@ class TestsController < ApplicationController
   # PATCH/PUT /tests/1
   # PATCH/PUT /tests/1.json
   def update
+    $logger.debug{"Update Test."}
+
     respond_to do |format|
       if @test.update(test_params)
         format.html { redirect_to @test, notice: 'Test was successfully updated.' }
@@ -68,6 +73,8 @@ class TestsController < ApplicationController
   # DELETE /tests/1
   # DELETE /tests/1.json
   def destroy
+    $logger.debug{"Delete Test."}
+
     @test.destroy
     respond_to do |format|
       format.html { redirect_to tests_url, notice: 'Test was successfully destroyed.' }

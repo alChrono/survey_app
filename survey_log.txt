@@ -1,63 +1,35 @@
-D, [2015-04-12T19:22:01.845856 #8481] DEBUG -- : {"test"=>{"survey"=>"1", "question"=>"2"}, "controller"=>"tests", "action"=>"create"}
-D, [2015-04-12T19:22:01.845972 #8481] DEBUG -- : Add question ID 0 to survey ID 0.
-D, [2015-04-12T19:22:01.856205 #8481] DEBUG -- : Update survey:Patriots
-D, [2015-04-12T19:22:01.873215 #8481] DEBUG -- : Create new survey:Bears
-D, [2015-04-12T19:22:01.882319 #8481] DEBUG -- : Start create new survey.
-D, [2015-04-12T19:22:01.943901 #8481] DEBUG -- : :question
-D, [2015-04-12T19:22:01.944168 #8481] DEBUG -- : Create new question:{"question"=>"Who won the Superbowl XLIX?", "answer_1"=>"Patriots", "answer_2"=>"Jets", "answer_3"=>"Seahawks", "answer_4"=>"Broncos", "answer_5"=>"Packers"}
-D, [2015-04-12T19:22:01.944202 #8481] DEBUG -- : :question
-D, [2015-04-12T19:22:01.949468 #8481] DEBUG -- : :question
-D, [2015-04-12T19:22:35.300770 #8516] DEBUG -- : Create new survey:Bears
-D, [2015-04-12T19:22:35.336417 #8516] DEBUG -- : Start create new survey.
-D, [2015-04-12T19:22:35.348263 #8516] DEBUG -- : Update survey:Patriots
-D, [2015-04-12T19:22:35.417768 #8516] DEBUG -- : {"test"=>{"survey"=>"1", "question"=>"2"}, "controller"=>"tests", "action"=>"create"}
-D, [2015-04-12T19:22:35.417866 #8516] DEBUG -- : Add question ID 0 to survey ID 0.
-D, [2015-04-12T19:22:35.435290 #8516] DEBUG -- : :question
-D, [2015-04-12T19:22:35.435547 #8516] DEBUG -- : Create new question:{"question"=>"Who won the Superbowl XLIX?", "answer_1"=>"Patriots", "answer_2"=>"Jets", "answer_3"=>"Seahawks", "answer_4"=>"Broncos", "answer_5"=>"Packers"}
-D, [2015-04-12T19:22:35.435579 #8516] DEBUG -- : :question
-D, [2015-04-12T19:22:35.464908 #8516] DEBUG -- : :question
-D, [2015-04-12T19:24:51.527186 #8546] DEBUG -- : :question
-D, [2015-04-12T19:24:51.527483 #8546] DEBUG -- : Create new question:{"question"=>"Who won the Superbowl XLIX?", "answer_1"=>"Patriots", "answer_2"=>"Jets", "answer_3"=>"Seahawks", "answer_4"=>"Broncos", "answer_5"=>"Packers"}
-D, [2015-04-12T19:24:51.527523 #8546] DEBUG -- : :question
-D, [2015-04-12T19:24:51.543509 #8546] DEBUG -- : :question
-D, [2015-04-12T19:24:51.584553 #8546] DEBUG -- : Create new survey:Bears
-D, [2015-04-12T19:24:51.604951 #8546] DEBUG -- : Start create new survey.
-D, [2015-04-12T19:24:51.609416 #8546] DEBUG -- : Update survey:Patriots
-D, [2015-04-12T19:24:51.619858 #8546] DEBUG -- : {"test"=>{"survey"=>"1", "question"=>"2"}, "controller"=>"tests", "action"=>"create"}
-D, [2015-04-12T19:24:51.619968 #8546] DEBUG -- : Add question ID 0 to survey ID 0.
-D, [2015-04-12T19:25:05.899670 #8560] DEBUG -- : Start create new survey.
-D, [2015-04-12T19:25:05.917984 #8560] DEBUG -- : Create new survey:Bears
-D, [2015-04-12T19:25:05.929309 #8560] DEBUG -- : Update survey:Patriots
-D, [2015-04-12T19:25:05.960025 #8560] DEBUG -- : :question
-D, [2015-04-12T19:25:05.960283 #8560] DEBUG -- : Create new question:{"question"=>"Who won the Superbowl XLIX?", "answer_1"=>"Patriots", "answer_2"=>"Jets", "answer_3"=>"Seahawks", "answer_4"=>"Broncos", "answer_5"=>"Packers"}
-D, [2015-04-12T19:25:05.960318 #8560] DEBUG -- : :question
-D, [2015-04-12T19:25:05.965812 #8560] DEBUG -- : :question
-D, [2015-04-12T19:25:06.016406 #8560] DEBUG -- : {"test"=>{"survey"=>"1", "question"=>"2"}, "controller"=>"tests", "action"=>"create"}
-D, [2015-04-12T19:25:06.016504 #8560] DEBUG -- : Add question ID 0 to survey ID 0.
-D, [2015-04-12T19:25:41.294043 #8590] DEBUG -- : Start create new survey.
-D, [2015-04-12T19:25:41.320618 #8590] DEBUG -- : Create new survey:Bears
-D, [2015-04-12T19:25:41.354841 #8590] DEBUG -- : Update survey:Patriots
-D, [2015-04-12T19:25:41.369288 #8590] DEBUG -- : {"test"=>{"survey"=>"1", "question"=>"2"}, "controller"=>"tests", "action"=>"create"}
-D, [2015-04-12T19:25:41.369388 #8590] DEBUG -- : Add question ID 0 to survey ID 0.
-D, [2015-04-12T19:25:41.423129 #8590] DEBUG -- : :question
-D, [2015-04-12T19:25:41.423386 #8590] DEBUG -- : Create new question:{"question"=>"Who won the Superbowl XLIX?", "answer_1"=>"Patriots", "answer_2"=>"Jets", "answer_3"=>"Seahawks", "answer_4"=>"Broncos", "answer_5"=>"Packers"}
-D, [2015-04-12T19:25:41.423420 #8590] DEBUG -- : :question
-D, [2015-04-12T19:25:41.433498 #8590] DEBUG -- : :question
-D, [2015-04-12T19:26:00.604321 #8611] DEBUG -- : {"test"=>{"survey"=>"1", "question"=>"2"}, "controller"=>"tests", "action"=>"create"}
-D, [2015-04-12T19:26:00.604428 #8611] DEBUG -- : Add question ID 0 to survey ID 0.
-D, [2015-04-12T19:26:00.623949 #8611] DEBUG -- : :question
-D, [2015-04-12T19:26:00.624231 #8611] DEBUG -- : Create new question:{"question"=>"Who won the Superbowl XLIX?", "answer_1"=>"Patriots", "answer_2"=>"Jets", "answer_3"=>"Seahawks", "answer_4"=>"Broncos", "answer_5"=>"Packers"}
-D, [2015-04-12T19:26:00.624266 #8611] DEBUG -- : :question
-D, [2015-04-12T19:26:00.639006 #8611] DEBUG -- : :question
-D, [2015-04-12T19:26:00.691547 #8611] DEBUG -- : Create new survey:Bears
-D, [2015-04-12T19:26:00.712675 #8611] DEBUG -- : Start create new survey.
-D, [2015-04-12T19:26:00.724435 #8611] DEBUG -- : Update survey:Patriots
-D, [2015-04-12T19:26:48.485110 #8634] DEBUG -- : :question
-D, [2015-04-12T19:26:48.485383 #8634] DEBUG -- : Create new question:{"question"=>"Who won the Superbowl XLIX?", "answer_1"=>"Patriots", "answer_2"=>"Jets", "answer_3"=>"Seahawks", "answer_4"=>"Broncos", "answer_5"=>"Packers"}
-D, [2015-04-12T19:26:48.485418 #8634] DEBUG -- : :question
-D, [2015-04-12T19:26:48.500910 #8634] DEBUG -- : :question
-D, [2015-04-12T19:26:48.519652 #8634] DEBUG -- : Create new survey:Bears
-D, [2015-04-12T19:26:48.524769 #8634] DEBUG -- : Update survey:Patriots
-D, [2015-04-12T19:26:48.539459 #8634] DEBUG -- : Start create new survey.
-D, [2015-04-12T19:26:48.549643 #8634] DEBUG -- : {"test"=>{"survey"=>"1", "question"=>"2"}, "controller"=>"tests", "action"=>"create"}
-D, [2015-04-12T19:26:48.549735 #8634] DEBUG -- : Add question ID 0 to survey ID 0.
+D, [2015-04-12T21:01:53.024879 #9908] DEBUG -- : Show surveys.
+D, [2015-04-12T21:01:53.029111 #9908] DEBUG -- : #<ActiveRecord::Relation []>
+D, [2015-04-12T21:01:53.029809 #9908] DEBUG -- : []
+D, [2015-04-12T21:02:25.704218 #9908] DEBUG -- : Show surveys.
+D, [2015-04-12T21:02:25.708349 #9908] DEBUG -- : #<ActiveRecord::Relation [#<Test id: nil, question_id: 12>, #<Test id: nil, question_id: 13>, #<Test id: nil, question_id: 12>]>
+D, [2015-04-12T21:02:25.711643 #9908] DEBUG -- : 12
+D, [2015-04-12T21:02:25.711700 #9908] DEBUG -- : 13
+D, [2015-04-12T21:02:25.711726 #9908] DEBUG -- : 12
+D, [2015-04-12T21:02:25.711749 #9908] DEBUG -- : [12, 13, 12]
+D, [2015-04-12T21:05:45.434959 #9908] DEBUG -- : Show surveys.
+D, [2015-04-12T21:05:45.442318 #9908] DEBUG -- : 12
+D, [2015-04-12T21:05:45.442379 #9908] DEBUG -- : 13
+D, [2015-04-12T21:05:45.442409 #9908] DEBUG -- : 12
+D, [2015-04-12T21:05:45.442434 #9908] DEBUG -- : nil
+D, [2015-04-12T21:05:45.446894 #9908] DEBUG -- : here
+D, [2015-04-12T21:05:45.446951 #9908] DEBUG -- : [#<Question id: 12, question: "Who won Superbowl XL1X?", answer_1: "Patriots", answer_2: "Seahawks", answer_3: "Nobody", answer_4: "I did", answer_5: "You did", created_at: "2015-04-12 03:47:00", updated_at: "2015-04-12 03:47:00">, #<Question id: 13, question: "Who won the world series", answer_1: "Red Sox", answer_2: "Yankees", answer_3: "Blue Jays", answer_4: "Orioles", answer_5: "Tigers", created_at: "2015-04-12 18:31:10", updated_at: "2015-04-12 18:31:10">]
+D, [2015-04-12T21:06:44.201215 #9908] DEBUG -- : Save survey.
+D, [2015-04-12T21:06:50.126513 #9908] DEBUG -- : Show surveys.
+D, [2015-04-12T21:06:50.130933 #9908] DEBUG -- : nil
+D, [2015-04-12T21:06:50.131611 #9908] DEBUG -- : here
+D, [2015-04-12T21:06:50.131643 #9908] DEBUG -- : []
+D, [2015-04-12T21:06:51.682538 #9908] DEBUG -- : Save survey.
+D, [2015-04-12T21:06:52.833947 #9908] DEBUG -- : Show surveys.
+D, [2015-04-12T21:06:52.836811 #9908] DEBUG -- : 12
+D, [2015-04-12T21:06:52.836856 #9908] DEBUG -- : 13
+D, [2015-04-12T21:06:52.836885 #9908] DEBUG -- : 12
+D, [2015-04-12T21:06:52.836910 #9908] DEBUG -- : nil
+D, [2015-04-12T21:06:52.841092 #9908] DEBUG -- : here
+D, [2015-04-12T21:06:52.841128 #9908] DEBUG -- : [#<Question id: 12, question: "Who won Superbowl XL1X?", answer_1: "Patriots", answer_2: "Seahawks", answer_3: "Nobody", answer_4: "I did", answer_5: "You did", created_at: "2015-04-12 03:47:00", updated_at: "2015-04-12 03:47:00">, #<Question id: 13, question: "Who won the world series", answer_1: "Red Sox", answer_2: "Yankees", answer_3: "Blue Jays", answer_4: "Orioles", answer_5: "Tigers", created_at: "2015-04-12 18:31:10", updated_at: "2015-04-12 18:31:10">]
+D, [2015-04-12T21:06:55.331630 #9908] DEBUG -- : Show surveys.
+D, [2015-04-12T21:06:55.332371 #9908] DEBUG -- : 13
+D, [2015-04-12T21:06:55.332410 #9908] DEBUG -- : 12
+D, [2015-04-12T21:06:55.332435 #9908] DEBUG -- : nil
+D, [2015-04-12T21:06:55.332965 #9908] DEBUG -- : here
+D, [2015-04-12T21:06:55.332995 #9908] DEBUG -- : [#<Question id: 12, question: "Who won Superbowl XL1X?", answer_1: "Patriots", answer_2: "Seahawks", answer_3: "Nobody", answer_4: "I did", answer_5: "You did", created_at: "2015-04-12 03:47:00", updated_at: "2015-04-12 03:47:00">, #<Question id: 13, question: "Who won the world series", answer_1: "Red Sox", answer_2: "Yankees", answer_3: "Blue Jays", answer_4: "Orioles", answer_5: "Tigers", created_at: "2015-04-12 18:31:10", updated_at: "2015-04-12 18:31:10">]

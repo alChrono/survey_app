@@ -1,9 +1,41 @@
 <p id="notice"><%= notice %></p>
 
 <p>
-  <strong>Name:</strong>
-  <%= @survey.name %>
-</p>
+  Survey Name: <%= @survey.name %>
+  <br>
+  <tbody>
+    <% i = 1 %>
+    <% @questions.each do |question| %>
+      <br>
+      Question <% i %> - 
+      <%= question.question %>
 
-<%= link_to 'Edit', edit_survey_path(@survey) %> |
-<%= link_to 'Back', surveys_path %>
+      <br>
+      <%= radio_button_tag(:age, "a") %>
+	  <%= label_tag(:age_child, question.answer_1) %>
+
+	  <br>
+      <%= radio_button_tag(:age, "b") %>
+      <%= label_tag(:age_adult, question.answer_2) %>
+
+      <br>
+      <%= radio_button_tag(:age, "c") %>
+      <%= label_tag(:age_adult, question.answer_3) %>
+
+      <br>
+      <%= radio_button_tag(:age, "d") %>
+      <%= label_tag(:age_adult, question.answer_4) %>
+
+      <br>
+      <%= radio_button_tag(:age, "e") %>
+      <%= label_tag(:age_adult, question.answer_5) %>
+
+      <% i = i + 1 %>
+      <br>
+    <% end %>
+  </tbody>
+</p>
+<%= form_tag(survey_save_survey_path(@survey.id)) do %>
+	<%= submit_tag "Submit Survey" %>
+<% end %>
+<br>
