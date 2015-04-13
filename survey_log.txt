@@ -1,35 +1,22 @@
-D, [2015-04-12T21:01:53.024879 #9908] DEBUG -- : Show surveys.
-D, [2015-04-12T21:01:53.029111 #9908] DEBUG -- : #<ActiveRecord::Relation []>
-D, [2015-04-12T21:01:53.029809 #9908] DEBUG -- : []
-D, [2015-04-12T21:02:25.704218 #9908] DEBUG -- : Show surveys.
-D, [2015-04-12T21:02:25.708349 #9908] DEBUG -- : #<ActiveRecord::Relation [#<Test id: nil, question_id: 12>, #<Test id: nil, question_id: 13>, #<Test id: nil, question_id: 12>]>
-D, [2015-04-12T21:02:25.711643 #9908] DEBUG -- : 12
-D, [2015-04-12T21:02:25.711700 #9908] DEBUG -- : 13
-D, [2015-04-12T21:02:25.711726 #9908] DEBUG -- : 12
-D, [2015-04-12T21:02:25.711749 #9908] DEBUG -- : [12, 13, 12]
-D, [2015-04-12T21:05:45.434959 #9908] DEBUG -- : Show surveys.
-D, [2015-04-12T21:05:45.442318 #9908] DEBUG -- : 12
-D, [2015-04-12T21:05:45.442379 #9908] DEBUG -- : 13
-D, [2015-04-12T21:05:45.442409 #9908] DEBUG -- : 12
-D, [2015-04-12T21:05:45.442434 #9908] DEBUG -- : nil
-D, [2015-04-12T21:05:45.446894 #9908] DEBUG -- : here
-D, [2015-04-12T21:05:45.446951 #9908] DEBUG -- : [#<Question id: 12, question: "Who won Superbowl XL1X?", answer_1: "Patriots", answer_2: "Seahawks", answer_3: "Nobody", answer_4: "I did", answer_5: "You did", created_at: "2015-04-12 03:47:00", updated_at: "2015-04-12 03:47:00">, #<Question id: 13, question: "Who won the world series", answer_1: "Red Sox", answer_2: "Yankees", answer_3: "Blue Jays", answer_4: "Orioles", answer_5: "Tigers", created_at: "2015-04-12 18:31:10", updated_at: "2015-04-12 18:31:10">]
-D, [2015-04-12T21:06:44.201215 #9908] DEBUG -- : Save survey.
-D, [2015-04-12T21:06:50.126513 #9908] DEBUG -- : Show surveys.
-D, [2015-04-12T21:06:50.130933 #9908] DEBUG -- : nil
-D, [2015-04-12T21:06:50.131611 #9908] DEBUG -- : here
-D, [2015-04-12T21:06:50.131643 #9908] DEBUG -- : []
-D, [2015-04-12T21:06:51.682538 #9908] DEBUG -- : Save survey.
-D, [2015-04-12T21:06:52.833947 #9908] DEBUG -- : Show surveys.
-D, [2015-04-12T21:06:52.836811 #9908] DEBUG -- : 12
-D, [2015-04-12T21:06:52.836856 #9908] DEBUG -- : 13
-D, [2015-04-12T21:06:52.836885 #9908] DEBUG -- : 12
-D, [2015-04-12T21:06:52.836910 #9908] DEBUG -- : nil
-D, [2015-04-12T21:06:52.841092 #9908] DEBUG -- : here
-D, [2015-04-12T21:06:52.841128 #9908] DEBUG -- : [#<Question id: 12, question: "Who won Superbowl XL1X?", answer_1: "Patriots", answer_2: "Seahawks", answer_3: "Nobody", answer_4: "I did", answer_5: "You did", created_at: "2015-04-12 03:47:00", updated_at: "2015-04-12 03:47:00">, #<Question id: 13, question: "Who won the world series", answer_1: "Red Sox", answer_2: "Yankees", answer_3: "Blue Jays", answer_4: "Orioles", answer_5: "Tigers", created_at: "2015-04-12 18:31:10", updated_at: "2015-04-12 18:31:10">]
-D, [2015-04-12T21:06:55.331630 #9908] DEBUG -- : Show surveys.
-D, [2015-04-12T21:06:55.332371 #9908] DEBUG -- : 13
-D, [2015-04-12T21:06:55.332410 #9908] DEBUG -- : 12
-D, [2015-04-12T21:06:55.332435 #9908] DEBUG -- : nil
-D, [2015-04-12T21:06:55.332965 #9908] DEBUG -- : here
-D, [2015-04-12T21:06:55.332995 #9908] DEBUG -- : [#<Question id: 12, question: "Who won Superbowl XL1X?", answer_1: "Patriots", answer_2: "Seahawks", answer_3: "Nobody", answer_4: "I did", answer_5: "You did", created_at: "2015-04-12 03:47:00", updated_at: "2015-04-12 03:47:00">, #<Question id: 13, question: "Who won the world series", answer_1: "Red Sox", answer_2: "Yankees", answer_3: "Blue Jays", answer_4: "Orioles", answer_5: "Tigers", created_at: "2015-04-12 18:31:10", updated_at: "2015-04-12 18:31:10">]
+D, [2015-04-12T21:16:11.791824 #9908] DEBUG -- : Show surveys.
+D, [2015-04-12T21:16:11.792398 #9908] DEBUG -- : 13
+D, [2015-04-12T21:16:11.792436 #9908] DEBUG -- : 12
+D, [2015-04-12T21:16:11.792459 #9908] DEBUG -- : nil
+D, [2015-04-12T21:16:11.794832 #9908] DEBUG -- : Test
+D, [2015-04-12T21:16:11.794867 #9908] DEBUG -- : [#<Question id: 12, question: "Who won Superbowl XL1X?", answer_1: "Patriots", answer_2: "Seahawks", answer_3: "Nobody", answer_4: "I did", answer_5: "You did", created_at: "2015-04-12 03:47:00", updated_at: "2015-04-12 03:47:00">, #<Question id: 13, question: "Who won the world series?", answer_1: "Red Sox", answer_2: "Yankees", answer_3: "Blue Jays", answer_4: "Orioles", answer_5: "Tigers", created_at: "2015-04-12 18:31:10", updated_at: "2015-04-13 01:12:39">]
+D, [2015-04-12T21:16:17.086945 #9908] DEBUG -- : Show surveys.
+D, [2015-04-12T21:16:17.087476 #9908] DEBUG -- : nil
+D, [2015-04-12T21:16:17.089168 #9908] DEBUG -- : Test
+D, [2015-04-12T21:16:17.089201 #9908] DEBUG -- : []
+D, [2015-04-12T21:16:59.405606 #9908] DEBUG -- : Show surveys.
+D, [2015-04-12T21:16:59.413407 #9908] DEBUG -- : Test
+D, [2015-04-12T21:16:59.413451 #9908] DEBUG -- : 0
+D, [2015-04-12T21:17:36.792135 #9908] DEBUG -- : Show surveys.
+D, [2015-04-12T21:18:26.195676 #9908] DEBUG -- : Show surveys.
+D, [2015-04-12T21:18:28.441493 #9908] DEBUG -- : Show surveys.
+D, [2015-04-12T21:18:30.035858 #9908] DEBUG -- : Show surveys.
+D, [2015-04-12T21:18:30.038422 #9908] DEBUG -- : 13
+D, [2015-04-12T21:18:30.038464 #9908] DEBUG -- : 12
+D, [2015-04-12T21:18:32.302985 #9908] DEBUG -- : Show surveys.
+D, [2015-04-12T21:18:32.303485 #9908] DEBUG -- : 13
+D, [2015-04-12T21:18:32.303574 #9908] DEBUG -- : 12

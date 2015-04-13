@@ -25,14 +25,9 @@ class SurveysController < ApplicationController
       survey_questions << test.question_id
     end
 
-    $logger.debug{@survey_questions}
-
     # get all the questions that are associated with the survey
     # duplicate questions are ommited
     @questions = Question.where("id in(?)", survey_questions).to_a
-
-    $logger.debug{"here"}
-    $logger.debug{@questions}
   end
 
   # GET /surveys/new
