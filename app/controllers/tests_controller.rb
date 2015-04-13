@@ -56,24 +56,6 @@ class TestsController < ApplicationController
     redirect_to :back 
   end
 
-  # PATCH/PUT /tests/1
-  # PATCH/PUT /tests/1.json
-=begin
-  def update
-    $logger.debug{"Update Test."}
-
-    respond_to do |format|
-      if @test.update(test_params)
-        format.html { redirect_to @test, notice: 'Test was successfully updated.' }
-        format.json { render :show, status: :ok, location: @test }
-      else
-        format.html { render :edit }
-        format.json { render json: @test.errors, status: :unprocessable_entity }
-      end
-    end
-  end
-=end
-
   # DELETE /tests/1
   # DELETE /tests/1.json
   def destroy
