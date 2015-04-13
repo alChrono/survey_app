@@ -18,14 +18,11 @@
   </div>
   <div>
     Current Questions in survey: <br>
-    <%=select_tag(:test, options_from_collection_for_select(Test.where(survey_id: session[:survey]), :id, :question_id),:multiple =>false,:size => 8,:class=> "text")%>
+    <%=select_tag(:test, options_from_collection_for_select(@questions, :id, :question),:multiple =>false,:size => 8,:class=> "text")%>
   </div>
   <div class="field">
     <%= f.label :question %><br>
     <%= f.collection_select(:question_id, Question.all, :id, :question) %>
     <%= f.submit "Add Question"%>
-  </div>
-  <div class="actions">
-    
   </div>
 <% end %>

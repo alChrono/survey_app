@@ -17,7 +17,12 @@ class TestsController < ApplicationController
   # GET /tests/new
   def new
     $logger.debug{"New Test."}
-    @test = Test.new
+    @test               = Test.new
+    
+    # get all the questions that are associated with the survey
+    # duplicate questions are ommited
+    @questions = get_survey_questions(session[:survey])
+    $logger.debug{@questions}
   end
 
   # GET /tests/1/edit
@@ -37,25 +42,23 @@ class TestsController < ApplicationController
       # store the survey ID so we can load the questions in the survey 
       # after page is reloaded
       session[:survey] =  i_survey_id   
-      redirect_to :back 
+      
     else
-      respond_to do |format|
-        $logger.debug{"Add question ID #{i_question_id} to survey ID #{i_survey_id}."}
+      $logger.debug{"Add question ID #{i_question_id} to survey ID #{i_survey_id}."}
 
-        # create a new record and save it 
-        @test = Test.new(:survey_id => i_survey_id, :question_id => i_question_id)
-        #@test = Test.new(:survey_id => 55, :question_id => 55)
-        @test.save
-
-        # render the page again and display errors if any
-        format.html { render :new }
-        format.json { render json: @test.errors, status: :unprocessable_entity }
-      end
+      # create a new record and save it 
+      @test = Test.new(:survey_id => i_survey_id, :question_id => i_question_id)
+      #@test = Test.new(:survey_id => 55, :question_id => 55)
+      @test.save
     end
+
+    # reload the page
+    redirect_to :back 
   end
 
   # PATCH/PUT /tests/1
   # PATCH/PUT /tests/1.json
+=begin
   def update
     $logger.debug{"Update Test."}
 
@@ -69,6 +72,7 @@ class TestsController < ApplicationController
       end
     end
   end
+=end
 
   # DELETE /tests/1
   # DELETE /tests/1.json

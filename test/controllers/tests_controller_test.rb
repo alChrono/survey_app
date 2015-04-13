@@ -17,21 +17,18 @@ class TestsControllerTest < ActionController::TestCase
   end
 
   test "should create test" do
+    @request.env['HTTP_REFERER'] = 'survey/new'
+
     assert_difference('Test.count') do
       post :create, test: {survey: "1", question: "2"}
     end
 
     # no redirect success reloads survey question list
-    assert_response :success
+    assert_response :redirect
   end
 
   test "should show test" do
     get :show, id: @test
-    assert_response :success
-  end
-
-  test "should get edit" do
-    get :edit, id: @test
     assert_response :success
   end
 
