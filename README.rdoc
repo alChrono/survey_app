@@ -24,13 +24,24 @@
 * System dependencies
 	- NodeJS - sudo apt-get install nodejs
 
+* Task Finish
+	- Created three Active Record for storing survey names, questions/answers, and survey/question association.
+	- Survey, Questions allow CRUD operations
+	- Survey/Question association allow create,read and delete operations.
+	- Survey's questions and answers can be viewed.
+	- Some unit testing added
+	- Functional testing updated
+	- Created Git Repo and deployed on Cloud9 at https://survey-app-alchrono-2.c9.io/
+
 * Still need to do:
+	* Store and record survey answers submitted by users.
+
 	* Add integration testing.
 	
 	* Design for Survey Takin
-		- Add extra columns to the the Entity that stores Survey/Question relation
+		- Add extra columns to the the Active Record Class that stores Survey/Question relation
 		- Each column would keep track of how many times a different answer was selected
 
 	* Design for Tracking user survey/question result
-		- Create a new ActiveRecord Entity with the columns user ID, survey ID, question ID and answer
+		- Create a new Active Record Record with the columns user ID, survey ID, question ID and answer
 		- This Entity would keep track of which answers the user selected for any given survey and question.
