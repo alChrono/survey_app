@@ -24,4 +24,10 @@
 * System dependencies
 	- NodeJS - sudo apt-get install nodejs
 	
-* Design for Survey Taking
+* Design for Survey Takin
+	- Add extra columns to the the Entity that stores Survey/Question relation
+	- Each column would keep track of how many times a different answer was selected
+
+* Design for Tracking user survey/question result
+	- Create a new ActiveRecord Entity with the columns user ID, survey ID, question ID and answer
+	- This Entity would keep track of which answers the user selected for any given survey and question.
