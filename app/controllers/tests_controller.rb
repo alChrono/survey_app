@@ -23,6 +23,13 @@ class TestsController < ApplicationController
     # duplicate questions are ommited
     @questions = get_survey_questions(session[:survey])
     $logger.debug{@questions}
+
+    # Show error message if any
+    @test.errors.add(:base, session[:test_error]) unless session[:test_error].nil?
+
+    # Clear error messages
+    session[:test_error] = nil
+    
   end
 
   # GET /tests/1/edit
@@ -48,8 +55,13 @@ class TestsController < ApplicationController
 
       # create a new record and save it 
       @test = Test.new(:survey_id => i_survey_id, :question_id => i_question_id)
-      #@test = Test.new(:survey_id => 55, :question_id => 55)
-      @test.save
+      
+      # check to see if the test saved successfully, if it didnt' pass the error back on reload
+      if @test.save
+        session[:test_error] = nil
+      else
+        session[:test_error] = @test.errors.full_messages.to_sentence 
+      end
     end
 
     # reload the page

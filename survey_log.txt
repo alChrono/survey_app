@@ -1,0 +1,187 @@
+D, [2015-04-16T22:00:29.197407 #3229] DEBUG -- : Add question ID 10 to survey ID 17.
+D, [2015-04-16T22:00:29.207560 #3229] DEBUG -- : New Test.
+D, [2015-04-16T22:00:29.208376 #3229] DEBUG -- : 13
+D, [2015-04-16T22:00:29.208419 #3229] DEBUG -- : 12
+D, [2015-04-16T22:00:29.208448 #3229] DEBUG -- : 10
+D, [2015-04-16T22:00:29.208474 #3229] DEBUG -- : 10
+D, [2015-04-16T22:00:29.208501 #3229] DEBUG -- : 11
+D, [2015-04-16T22:00:29.209163 #3229] DEBUG -- : [#<Question id: 10, question: "1", answer_1: "1", answer_2: "1", answer_3: "1", answer_4: "1", answer_5: "1", created_at: "2015-04-12 01:53:00", updated_at: "2015-04-12 01:53:00">, #<Question id: 11, question: "2", answer_1: "2", answer_2: "2", answer_3: "2", answer_4: "2", answer_5: "2", created_at: "2015-04-12 03:43:38", updated_at: "2015-04-12 03:43:38">, #<Question id: 12, question: "Who won Superbowl XL1X?", answer_1: "Patriots", answer_2: "Seahawks", answer_3: "Nobody", answer_4: "I did", answer_5: "You did", created_at: "2015-04-12 03:47:00", updated_at: "2015-04-12 03:47:00">, #<Question id: 13, question: "Who won the world series?", answer_1: "Red Sox", answer_2: "Yankees", answer_3: "Blue Jays", answer_4: "Orioles", answer_5: "Tigers", created_at: "2015-04-12 18:31:10", updated_at: "2015-04-13 01:12:39">]
+D, [2015-04-16T22:00:32.614432 #3229] DEBUG -- : Add question ID 10 to survey ID 17.
+D, [2015-04-16T22:00:32.624560 #3229] DEBUG -- : New Test.
+D, [2015-04-16T22:00:32.625408 #3229] DEBUG -- : 13
+D, [2015-04-16T22:00:32.625447 #3229] DEBUG -- : 12
+D, [2015-04-16T22:00:32.625482 #3229] DEBUG -- : 10
+D, [2015-04-16T22:00:32.625524 #3229] DEBUG -- : 10
+D, [2015-04-16T22:00:32.625551 #3229] DEBUG -- : 11
+D, [2015-04-16T22:00:32.626192 #3229] DEBUG -- : [#<Question id: 10, question: "1", answer_1: "1", answer_2: "1", answer_3: "1", answer_4: "1", answer_5: "1", created_at: "2015-04-12 01:53:00", updated_at: "2015-04-12 01:53:00">, #<Question id: 11, question: "2", answer_1: "2", answer_2: "2", answer_3: "2", answer_4: "2", answer_5: "2", created_at: "2015-04-12 03:43:38", updated_at: "2015-04-12 03:43:38">, #<Question id: 12, question: "Who won Superbowl XL1X?", answer_1: "Patriots", answer_2: "Seahawks", answer_3: "Nobody", answer_4: "I did", answer_5: "You did", created_at: "2015-04-12 03:47:00", updated_at: "2015-04-12 03:47:00">, #<Question id: 13, question: "Who won the world series?", answer_1: "Red Sox", answer_2: "Yankees", answer_3: "Blue Jays", answer_4: "Orioles", answer_5: "Tigers", created_at: "2015-04-12 18:31:10", updated_at: "2015-04-13 01:12:39">]
+D, [2015-04-16T22:00:37.097167 #3229] DEBUG -- : Add question ID 10 to survey ID 17.
+D, [2015-04-16T22:00:37.107750 #3229] DEBUG -- : New Test.
+D, [2015-04-16T22:00:37.108450 #3229] DEBUG -- : 13
+D, [2015-04-16T22:00:37.108487 #3229] DEBUG -- : 12
+D, [2015-04-16T22:00:37.108515 #3229] DEBUG -- : 10
+D, [2015-04-16T22:00:37.108542 #3229] DEBUG -- : 10
+D, [2015-04-16T22:00:37.108585 #3229] DEBUG -- : 11
+D, [2015-04-16T22:00:37.109136 #3229] DEBUG -- : [#<Question id: 10, question: "1", answer_1: "1", answer_2: "1", answer_3: "1", answer_4: "1", answer_5: "1", created_at: "2015-04-12 01:53:00", updated_at: "2015-04-12 01:53:00">, #<Question id: 11, question: "2", answer_1: "2", answer_2: "2", answer_3: "2", answer_4: "2", answer_5: "2", created_at: "2015-04-12 03:43:38", updated_at: "2015-04-12 03:43:38">, #<Question id: 12, question: "Who won Superbowl XL1X?", answer_1: "Patriots", answer_2: "Seahawks", answer_3: "Nobody", answer_4: "I did", answer_5: "You did", created_at: "2015-04-12 03:47:00", updated_at: "2015-04-12 03:47:00">, #<Question id: 13, question: "Who won the world series?", answer_1: "Red Sox", answer_2: "Yankees", answer_3: "Blue Jays", answer_4: "Orioles", answer_5: "Tigers", created_at: "2015-04-12 18:31:10", updated_at: "2015-04-13 01:12:39">]
+D, [2015-04-16T22:01:44.696671 #3229] DEBUG -- : Test index.
+D, [2015-04-16T22:01:46.065828 #3229] DEBUG -- : New Test.
+D, [2015-04-16T22:01:46.066883 #3229] DEBUG -- : 13
+D, [2015-04-16T22:01:46.066922 #3229] DEBUG -- : 12
+D, [2015-04-16T22:01:46.066949 #3229] DEBUG -- : 10
+D, [2015-04-16T22:01:46.066987 #3229] DEBUG -- : 10
+D, [2015-04-16T22:01:46.067013 #3229] DEBUG -- : 11
+D, [2015-04-16T22:01:46.067504 #3229] DEBUG -- : [#<Question id: 10, question: "1", answer_1: "1", answer_2: "1", answer_3: "1", answer_4: "1", answer_5: "1", created_at: "2015-04-12 01:53:00", updated_at: "2015-04-12 01:53:00">, #<Question id: 11, question: "2", answer_1: "2", answer_2: "2", answer_3: "2", answer_4: "2", answer_5: "2", created_at: "2015-04-12 03:43:38", updated_at: "2015-04-12 03:43:38">, #<Question id: 12, question: "Who won Superbowl XL1X?", answer_1: "Patriots", answer_2: "Seahawks", answer_3: "Nobody", answer_4: "I did", answer_5: "You did", created_at: "2015-04-12 03:47:00", updated_at: "2015-04-12 03:47:00">, #<Question id: 13, question: "Who won the world series?", answer_1: "Red Sox", answer_2: "Yankees", answer_3: "Blue Jays", answer_4: "Orioles", answer_5: "Tigers", created_at: "2015-04-12 18:31:10", updated_at: "2015-04-13 01:12:39">]
+D, [2015-04-16T22:01:46.176754 #3229] DEBUG -- : New Test.
+D, [2015-04-16T22:01:46.177533 #3229] DEBUG -- : 13
+D, [2015-04-16T22:01:46.177621 #3229] DEBUG -- : 12
+D, [2015-04-16T22:01:46.177646 #3229] DEBUG -- : 10
+D, [2015-04-16T22:01:46.177671 #3229] DEBUG -- : 10
+D, [2015-04-16T22:01:46.177695 #3229] DEBUG -- : 11
+D, [2015-04-16T22:01:46.178269 #3229] DEBUG -- : [#<Question id: 10, question: "1", answer_1: "1", answer_2: "1", answer_3: "1", answer_4: "1", answer_5: "1", created_at: "2015-04-12 01:53:00", updated_at: "2015-04-12 01:53:00">, #<Question id: 11, question: "2", answer_1: "2", answer_2: "2", answer_3: "2", answer_4: "2", answer_5: "2", created_at: "2015-04-12 03:43:38", updated_at: "2015-04-12 03:43:38">, #<Question id: 12, question: "Who won Superbowl XL1X?", answer_1: "Patriots", answer_2: "Seahawks", answer_3: "Nobody", answer_4: "I did", answer_5: "You did", created_at: "2015-04-12 03:47:00", updated_at: "2015-04-12 03:47:00">, #<Question id: 13, question: "Who won the world series?", answer_1: "Red Sox", answer_2: "Yankees", answer_3: "Blue Jays", answer_4: "Orioles", answer_5: "Tigers", created_at: "2015-04-12 18:31:10", updated_at: "2015-04-13 01:12:39">]
+D, [2015-04-16T22:03:33.822281 #3229] DEBUG -- : Test index.
+D, [2015-04-16T22:03:35.053115 #3229] DEBUG -- : New Test.
+D, [2015-04-16T22:03:35.054204 #3229] DEBUG -- : 13
+D, [2015-04-16T22:03:35.054253 #3229] DEBUG -- : 12
+D, [2015-04-16T22:03:35.054280 #3229] DEBUG -- : 10
+D, [2015-04-16T22:03:35.054318 #3229] DEBUG -- : 10
+D, [2015-04-16T22:03:35.054354 #3229] DEBUG -- : 11
+D, [2015-04-16T22:03:35.054958 #3229] DEBUG -- : [#<Question id: 10, question: "1", answer_1: "1", answer_2: "1", answer_3: "1", answer_4: "1", answer_5: "1", created_at: "2015-04-12 01:53:00", updated_at: "2015-04-12 01:53:00">, #<Question id: 11, question: "2", answer_1: "2", answer_2: "2", answer_3: "2", answer_4: "2", answer_5: "2", created_at: "2015-04-12 03:43:38", updated_at: "2015-04-12 03:43:38">, #<Question id: 12, question: "Who won Superbowl XL1X?", answer_1: "Patriots", answer_2: "Seahawks", answer_3: "Nobody", answer_4: "I did", answer_5: "You did", created_at: "2015-04-12 03:47:00", updated_at: "2015-04-12 03:47:00">, #<Question id: 13, question: "Who won the world series?", answer_1: "Red Sox", answer_2: "Yankees", answer_3: "Blue Jays", answer_4: "Orioles", answer_5: "Tigers", created_at: "2015-04-12 18:31:10", updated_at: "2015-04-13 01:12:39">]
+D, [2015-04-16T22:07:12.923523 #3229] DEBUG -- : New Test.
+D, [2015-04-16T22:07:12.932546 #3229] DEBUG -- : 13
+D, [2015-04-16T22:07:12.932600 #3229] DEBUG -- : 12
+D, [2015-04-16T22:07:12.932657 #3229] DEBUG -- : 10
+D, [2015-04-16T22:07:12.932685 #3229] DEBUG -- : 10
+D, [2015-04-16T22:07:12.932711 #3229] DEBUG -- : 11
+D, [2015-04-16T22:07:12.944027 #3229] DEBUG -- : [#<Question id: 10, question: "1", answer_1: "1", answer_2: "1", answer_3: "1", answer_4: "1", answer_5: "1", created_at: "2015-04-12 01:53:00", updated_at: "2015-04-12 01:53:00">, #<Question id: 11, question: "2", answer_1: "2", answer_2: "2", answer_3: "2", answer_4: "2", answer_5: "2", created_at: "2015-04-12 03:43:38", updated_at: "2015-04-12 03:43:38">, #<Question id: 12, question: "Who won Superbowl XL1X?", answer_1: "Patriots", answer_2: "Seahawks", answer_3: "Nobody", answer_4: "I did", answer_5: "You did", created_at: "2015-04-12 03:47:00", updated_at: "2015-04-12 03:47:00">, #<Question id: 13, question: "Who won the world series?", answer_1: "Red Sox", answer_2: "Yankees", answer_3: "Blue Jays", answer_4: "Orioles", answer_5: "Tigers", created_at: "2015-04-12 18:31:10", updated_at: "2015-04-13 01:12:39">]
+D, [2015-04-16T22:07:16.009829 #3229] DEBUG -- : Add question ID 10 to survey ID 17.
+D, [2015-04-16T22:07:16.019202 #3229] DEBUG -- : New Test.
+D, [2015-04-16T22:07:16.020191 #3229] DEBUG -- : 13
+D, [2015-04-16T22:07:16.020237 #3229] DEBUG -- : 12
+D, [2015-04-16T22:07:16.020274 #3229] DEBUG -- : 10
+D, [2015-04-16T22:07:16.020312 #3229] DEBUG -- : 10
+D, [2015-04-16T22:07:16.020337 #3229] DEBUG -- : 11
+D, [2015-04-16T22:07:16.021025 #3229] DEBUG -- : [#<Question id: 10, question: "1", answer_1: "1", answer_2: "1", answer_3: "1", answer_4: "1", answer_5: "1", created_at: "2015-04-12 01:53:00", updated_at: "2015-04-12 01:53:00">, #<Question id: 11, question: "2", answer_1: "2", answer_2: "2", answer_3: "2", answer_4: "2", answer_5: "2", created_at: "2015-04-12 03:43:38", updated_at: "2015-04-12 03:43:38">, #<Question id: 12, question: "Who won Superbowl XL1X?", answer_1: "Patriots", answer_2: "Seahawks", answer_3: "Nobody", answer_4: "I did", answer_5: "You did", created_at: "2015-04-12 03:47:00", updated_at: "2015-04-12 03:47:00">, #<Question id: 13, question: "Who won the world series?", answer_1: "Red Sox", answer_2: "Yankees", answer_3: "Blue Jays", answer_4: "Orioles", answer_5: "Tigers", created_at: "2015-04-12 18:31:10", updated_at: "2015-04-13 01:12:39">]
+D, [2015-04-16T22:08:16.632914 #3229] DEBUG -- : Test index.
+D, [2015-04-16T22:08:17.956494 #3229] DEBUG -- : New Test.
+D, [2015-04-16T22:08:17.957424 #3229] DEBUG -- : 13
+D, [2015-04-16T22:08:17.957461 #3229] DEBUG -- : 12
+D, [2015-04-16T22:08:17.957487 #3229] DEBUG -- : 10
+D, [2015-04-16T22:08:17.957511 #3229] DEBUG -- : 10
+D, [2015-04-16T22:08:17.957539 #3229] DEBUG -- : 11
+D, [2015-04-16T22:08:17.958018 #3229] DEBUG -- : [#<Question id: 10, question: "1", answer_1: "1", answer_2: "1", answer_3: "1", answer_4: "1", answer_5: "1", created_at: "2015-04-12 01:53:00", updated_at: "2015-04-12 01:53:00">, #<Question id: 11, question: "2", answer_1: "2", answer_2: "2", answer_3: "2", answer_4: "2", answer_5: "2", created_at: "2015-04-12 03:43:38", updated_at: "2015-04-12 03:43:38">, #<Question id: 12, question: "Who won Superbowl XL1X?", answer_1: "Patriots", answer_2: "Seahawks", answer_3: "Nobody", answer_4: "I did", answer_5: "You did", created_at: "2015-04-12 03:47:00", updated_at: "2015-04-12 03:47:00">, #<Question id: 13, question: "Who won the world series?", answer_1: "Red Sox", answer_2: "Yankees", answer_3: "Blue Jays", answer_4: "Orioles", answer_5: "Tigers", created_at: "2015-04-12 18:31:10", updated_at: "2015-04-13 01:12:39">]
+D, [2015-04-16T22:08:18.056042 #3229] DEBUG -- : New Test.
+D, [2015-04-16T22:08:18.056819 #3229] DEBUG -- : 13
+D, [2015-04-16T22:08:18.056859 #3229] DEBUG -- : 12
+D, [2015-04-16T22:08:18.056886 #3229] DEBUG -- : 10
+D, [2015-04-16T22:08:18.056914 #3229] DEBUG -- : 10
+D, [2015-04-16T22:08:18.056938 #3229] DEBUG -- : 11
+D, [2015-04-16T22:08:18.057473 #3229] DEBUG -- : [#<Question id: 10, question: "1", answer_1: "1", answer_2: "1", answer_3: "1", answer_4: "1", answer_5: "1", created_at: "2015-04-12 01:53:00", updated_at: "2015-04-12 01:53:00">, #<Question id: 11, question: "2", answer_1: "2", answer_2: "2", answer_3: "2", answer_4: "2", answer_5: "2", created_at: "2015-04-12 03:43:38", updated_at: "2015-04-12 03:43:38">, #<Question id: 12, question: "Who won Superbowl XL1X?", answer_1: "Patriots", answer_2: "Seahawks", answer_3: "Nobody", answer_4: "I did", answer_5: "You did", created_at: "2015-04-12 03:47:00", updated_at: "2015-04-12 03:47:00">, #<Question id: 13, question: "Who won the world series?", answer_1: "Red Sox", answer_2: "Yankees", answer_3: "Blue Jays", answer_4: "Orioles", answer_5: "Tigers", created_at: "2015-04-12 18:31:10", updated_at: "2015-04-13 01:12:39">]
+D, [2015-04-16T22:08:50.072844 #3229] DEBUG -- : Test index.
+D, [2015-04-16T22:08:51.129059 #3229] DEBUG -- : New Test.
+D, [2015-04-16T22:08:51.129964 #3229] DEBUG -- : 13
+D, [2015-04-16T22:08:51.130002 #3229] DEBUG -- : 12
+D, [2015-04-16T22:08:51.130028 #3229] DEBUG -- : 10
+D, [2015-04-16T22:08:51.130058 #3229] DEBUG -- : 10
+D, [2015-04-16T22:08:51.130083 #3229] DEBUG -- : 11
+D, [2015-04-16T22:08:51.130542 #3229] DEBUG -- : [#<Question id: 10, question: "1", answer_1: "1", answer_2: "1", answer_3: "1", answer_4: "1", answer_5: "1", created_at: "2015-04-12 01:53:00", updated_at: "2015-04-12 01:53:00">, #<Question id: 11, question: "2", answer_1: "2", answer_2: "2", answer_3: "2", answer_4: "2", answer_5: "2", created_at: "2015-04-12 03:43:38", updated_at: "2015-04-12 03:43:38">, #<Question id: 12, question: "Who won Superbowl XL1X?", answer_1: "Patriots", answer_2: "Seahawks", answer_3: "Nobody", answer_4: "I did", answer_5: "You did", created_at: "2015-04-12 03:47:00", updated_at: "2015-04-12 03:47:00">, #<Question id: 13, question: "Who won the world series?", answer_1: "Red Sox", answer_2: "Yankees", answer_3: "Blue Jays", answer_4: "Orioles", answer_5: "Tigers", created_at: "2015-04-12 18:31:10", updated_at: "2015-04-13 01:12:39">]
+D, [2015-04-16T22:08:51.235330 #3229] DEBUG -- : New Test.
+D, [2015-04-16T22:08:51.236043 #3229] DEBUG -- : 13
+D, [2015-04-16T22:08:51.236083 #3229] DEBUG -- : 12
+D, [2015-04-16T22:08:51.236109 #3229] DEBUG -- : 10
+D, [2015-04-16T22:08:51.236133 #3229] DEBUG -- : 10
+D, [2015-04-16T22:08:51.236159 #3229] DEBUG -- : 11
+D, [2015-04-16T22:08:51.236693 #3229] DEBUG -- : [#<Question id: 10, question: "1", answer_1: "1", answer_2: "1", answer_3: "1", answer_4: "1", answer_5: "1", created_at: "2015-04-12 01:53:00", updated_at: "2015-04-12 01:53:00">, #<Question id: 11, question: "2", answer_1: "2", answer_2: "2", answer_3: "2", answer_4: "2", answer_5: "2", created_at: "2015-04-12 03:43:38", updated_at: "2015-04-12 03:43:38">, #<Question id: 12, question: "Who won Superbowl XL1X?", answer_1: "Patriots", answer_2: "Seahawks", answer_3: "Nobody", answer_4: "I did", answer_5: "You did", created_at: "2015-04-12 03:47:00", updated_at: "2015-04-12 03:47:00">, #<Question id: 13, question: "Who won the world series?", answer_1: "Red Sox", answer_2: "Yankees", answer_3: "Blue Jays", answer_4: "Orioles", answer_5: "Tigers", created_at: "2015-04-12 18:31:10", updated_at: "2015-04-13 01:12:39">]
+D, [2015-04-16T22:09:14.800665 #3229] DEBUG -- : Test index.
+D, [2015-04-16T22:09:15.794940 #3229] DEBUG -- : New Test.
+D, [2015-04-16T22:09:15.795886 #3229] DEBUG -- : 13
+D, [2015-04-16T22:09:15.795932 #3229] DEBUG -- : 12
+D, [2015-04-16T22:09:15.795959 #3229] DEBUG -- : 10
+D, [2015-04-16T22:09:15.795986 #3229] DEBUG -- : 10
+D, [2015-04-16T22:09:15.796012 #3229] DEBUG -- : 11
+D, [2015-04-16T22:09:15.796483 #3229] DEBUG -- : [#<Question id: 10, question: "1", answer_1: "1", answer_2: "1", answer_3: "1", answer_4: "1", answer_5: "1", created_at: "2015-04-12 01:53:00", updated_at: "2015-04-12 01:53:00">, #<Question id: 11, question: "2", answer_1: "2", answer_2: "2", answer_3: "2", answer_4: "2", answer_5: "2", created_at: "2015-04-12 03:43:38", updated_at: "2015-04-12 03:43:38">, #<Question id: 12, question: "Who won Superbowl XL1X?", answer_1: "Patriots", answer_2: "Seahawks", answer_3: "Nobody", answer_4: "I did", answer_5: "You did", created_at: "2015-04-12 03:47:00", updated_at: "2015-04-12 03:47:00">, #<Question id: 13, question: "Who won the world series?", answer_1: "Red Sox", answer_2: "Yankees", answer_3: "Blue Jays", answer_4: "Orioles", answer_5: "Tigers", created_at: "2015-04-12 18:31:10", updated_at: "2015-04-13 01:12:39">]
+D, [2015-04-16T22:09:22.533011 #3229] DEBUG -- : Add question ID 10 to survey ID 17.
+D, [2015-04-16T22:09:22.540150 #3229] DEBUG -- : New Test.
+D, [2015-04-16T22:09:22.540796 #3229] DEBUG -- : 13
+D, [2015-04-16T22:09:22.540831 #3229] DEBUG -- : 12
+D, [2015-04-16T22:09:22.540868 #3229] DEBUG -- : 10
+D, [2015-04-16T22:09:22.540894 #3229] DEBUG -- : 10
+D, [2015-04-16T22:09:22.540919 #3229] DEBUG -- : 11
+D, [2015-04-16T22:09:22.541364 #3229] DEBUG -- : [#<Question id: 10, question: "1", answer_1: "1", answer_2: "1", answer_3: "1", answer_4: "1", answer_5: "1", created_at: "2015-04-12 01:53:00", updated_at: "2015-04-12 01:53:00">, #<Question id: 11, question: "2", answer_1: "2", answer_2: "2", answer_3: "2", answer_4: "2", answer_5: "2", created_at: "2015-04-12 03:43:38", updated_at: "2015-04-12 03:43:38">, #<Question id: 12, question: "Who won Superbowl XL1X?", answer_1: "Patriots", answer_2: "Seahawks", answer_3: "Nobody", answer_4: "I did", answer_5: "You did", created_at: "2015-04-12 03:47:00", updated_at: "2015-04-12 03:47:00">, #<Question id: 13, question: "Who won the world series?", answer_1: "Red Sox", answer_2: "Yankees", answer_3: "Blue Jays", answer_4: "Orioles", answer_5: "Tigers", created_at: "2015-04-12 18:31:10", updated_at: "2015-04-13 01:12:39">]
+D, [2015-04-16T22:10:12.933832 #3229] DEBUG -- : New Test.
+D, [2015-04-16T22:10:12.940162 #3229] DEBUG -- : 13
+D, [2015-04-16T22:10:12.940220 #3229] DEBUG -- : 12
+D, [2015-04-16T22:10:12.940247 #3229] DEBUG -- : 10
+D, [2015-04-16T22:10:12.940272 #3229] DEBUG -- : 10
+D, [2015-04-16T22:10:12.940298 #3229] DEBUG -- : 11
+D, [2015-04-16T22:10:12.948253 #3229] DEBUG -- : [#<Question id: 10, question: "1", answer_1: "1", answer_2: "1", answer_3: "1", answer_4: "1", answer_5: "1", created_at: "2015-04-12 01:53:00", updated_at: "2015-04-12 01:53:00">, #<Question id: 11, question: "2", answer_1: "2", answer_2: "2", answer_3: "2", answer_4: "2", answer_5: "2", created_at: "2015-04-12 03:43:38", updated_at: "2015-04-12 03:43:38">, #<Question id: 12, question: "Who won Superbowl XL1X?", answer_1: "Patriots", answer_2: "Seahawks", answer_3: "Nobody", answer_4: "I did", answer_5: "You did", created_at: "2015-04-12 03:47:00", updated_at: "2015-04-12 03:47:00">, #<Question id: 13, question: "Who won the world series?", answer_1: "Red Sox", answer_2: "Yankees", answer_3: "Blue Jays", answer_4: "Orioles", answer_5: "Tigers", created_at: "2015-04-12 18:31:10", updated_at: "2015-04-13 01:12:39">]
+D, [2015-04-16T22:10:14.019876 #3229] DEBUG -- : Test index.
+D, [2015-04-16T22:10:15.673913 #3229] DEBUG -- : New Test.
+D, [2015-04-16T22:10:15.674628 #3229] DEBUG -- : 13
+D, [2015-04-16T22:10:15.674663 #3229] DEBUG -- : 12
+D, [2015-04-16T22:10:15.674689 #3229] DEBUG -- : 10
+D, [2015-04-16T22:10:15.674712 #3229] DEBUG -- : 10
+D, [2015-04-16T22:10:15.674737 #3229] DEBUG -- : 11
+D, [2015-04-16T22:10:15.675207 #3229] DEBUG -- : [#<Question id: 10, question: "1", answer_1: "1", answer_2: "1", answer_3: "1", answer_4: "1", answer_5: "1", created_at: "2015-04-12 01:53:00", updated_at: "2015-04-12 01:53:00">, #<Question id: 11, question: "2", answer_1: "2", answer_2: "2", answer_3: "2", answer_4: "2", answer_5: "2", created_at: "2015-04-12 03:43:38", updated_at: "2015-04-12 03:43:38">, #<Question id: 12, question: "Who won Superbowl XL1X?", answer_1: "Patriots", answer_2: "Seahawks", answer_3: "Nobody", answer_4: "I did", answer_5: "You did", created_at: "2015-04-12 03:47:00", updated_at: "2015-04-12 03:47:00">, #<Question id: 13, question: "Who won the world series?", answer_1: "Red Sox", answer_2: "Yankees", answer_3: "Blue Jays", answer_4: "Orioles", answer_5: "Tigers", created_at: "2015-04-12 18:31:10", updated_at: "2015-04-13 01:12:39">]
+D, [2015-04-16T22:10:17.141474 #3229] DEBUG -- : Test index.
+D, [2015-04-16T22:10:18.237208 #3229] DEBUG -- : New Test.
+D, [2015-04-16T22:10:18.237843 #3229] DEBUG -- : 13
+D, [2015-04-16T22:10:18.237878 #3229] DEBUG -- : 12
+D, [2015-04-16T22:10:18.237904 #3229] DEBUG -- : 10
+D, [2015-04-16T22:10:18.237928 #3229] DEBUG -- : 10
+D, [2015-04-16T22:10:18.237953 #3229] DEBUG -- : 11
+D, [2015-04-16T22:10:18.238384 #3229] DEBUG -- : [#<Question id: 10, question: "1", answer_1: "1", answer_2: "1", answer_3: "1", answer_4: "1", answer_5: "1", created_at: "2015-04-12 01:53:00", updated_at: "2015-04-12 01:53:00">, #<Question id: 11, question: "2", answer_1: "2", answer_2: "2", answer_3: "2", answer_4: "2", answer_5: "2", created_at: "2015-04-12 03:43:38", updated_at: "2015-04-12 03:43:38">, #<Question id: 12, question: "Who won Superbowl XL1X?", answer_1: "Patriots", answer_2: "Seahawks", answer_3: "Nobody", answer_4: "I did", answer_5: "You did", created_at: "2015-04-12 03:47:00", updated_at: "2015-04-12 03:47:00">, #<Question id: 13, question: "Who won the world series?", answer_1: "Red Sox", answer_2: "Yankees", answer_3: "Blue Jays", answer_4: "Orioles", answer_5: "Tigers", created_at: "2015-04-12 18:31:10", updated_at: "2015-04-13 01:12:39">]
+D, [2015-04-16T22:10:26.228364 #3229] DEBUG -- : Test index.
+D, [2015-04-16T22:10:27.397649 #3229] DEBUG -- : New Test.
+D, [2015-04-16T22:10:27.398543 #3229] DEBUG -- : 13
+D, [2015-04-16T22:10:27.398580 #3229] DEBUG -- : 12
+D, [2015-04-16T22:10:27.398623 #3229] DEBUG -- : 10
+D, [2015-04-16T22:10:27.398651 #3229] DEBUG -- : 10
+D, [2015-04-16T22:10:27.398675 #3229] DEBUG -- : 11
+D, [2015-04-16T22:10:27.399147 #3229] DEBUG -- : [#<Question id: 10, question: "1", answer_1: "1", answer_2: "1", answer_3: "1", answer_4: "1", answer_5: "1", created_at: "2015-04-12 01:53:00", updated_at: "2015-04-12 01:53:00">, #<Question id: 11, question: "2", answer_1: "2", answer_2: "2", answer_3: "2", answer_4: "2", answer_5: "2", created_at: "2015-04-12 03:43:38", updated_at: "2015-04-12 03:43:38">, #<Question id: 12, question: "Who won Superbowl XL1X?", answer_1: "Patriots", answer_2: "Seahawks", answer_3: "Nobody", answer_4: "I did", answer_5: "You did", created_at: "2015-04-12 03:47:00", updated_at: "2015-04-12 03:47:00">, #<Question id: 13, question: "Who won the world series?", answer_1: "Red Sox", answer_2: "Yankees", answer_3: "Blue Jays", answer_4: "Orioles", answer_5: "Tigers", created_at: "2015-04-12 18:31:10", updated_at: "2015-04-13 01:12:39">]
+D, [2015-04-16T22:10:28.380032 #3229] DEBUG -- : Test index.
+D, [2015-04-16T22:10:29.340469 #3229] DEBUG -- : New Test.
+D, [2015-04-16T22:10:29.341291 #3229] DEBUG -- : 13
+D, [2015-04-16T22:10:29.341327 #3229] DEBUG -- : 12
+D, [2015-04-16T22:10:29.341353 #3229] DEBUG -- : 10
+D, [2015-04-16T22:10:29.341378 #3229] DEBUG -- : 10
+D, [2015-04-16T22:10:29.341416 #3229] DEBUG -- : 11
+D, [2015-04-16T22:10:29.341986 #3229] DEBUG -- : [#<Question id: 10, question: "1", answer_1: "1", answer_2: "1", answer_3: "1", answer_4: "1", answer_5: "1", created_at: "2015-04-12 01:53:00", updated_at: "2015-04-12 01:53:00">, #<Question id: 11, question: "2", answer_1: "2", answer_2: "2", answer_3: "2", answer_4: "2", answer_5: "2", created_at: "2015-04-12 03:43:38", updated_at: "2015-04-12 03:43:38">, #<Question id: 12, question: "Who won Superbowl XL1X?", answer_1: "Patriots", answer_2: "Seahawks", answer_3: "Nobody", answer_4: "I did", answer_5: "You did", created_at: "2015-04-12 03:47:00", updated_at: "2015-04-12 03:47:00">, #<Question id: 13, question: "Who won the world series?", answer_1: "Red Sox", answer_2: "Yankees", answer_3: "Blue Jays", answer_4: "Orioles", answer_5: "Tigers", created_at: "2015-04-12 18:31:10", updated_at: "2015-04-13 01:12:39">]
+D, [2015-04-16T22:10:45.962262 #3229] DEBUG -- : Test index.
+D, [2015-04-16T22:10:47.105853 #3229] DEBUG -- : New Test.
+D, [2015-04-16T22:10:47.106778 #3229] DEBUG -- : 13
+D, [2015-04-16T22:10:47.106817 #3229] DEBUG -- : 12
+D, [2015-04-16T22:10:47.106846 #3229] DEBUG -- : 10
+D, [2015-04-16T22:10:47.106872 #3229] DEBUG -- : 10
+D, [2015-04-16T22:10:47.106899 #3229] DEBUG -- : 11
+D, [2015-04-16T22:10:47.107380 #3229] DEBUG -- : [#<Question id: 10, question: "1", answer_1: "1", answer_2: "1", answer_3: "1", answer_4: "1", answer_5: "1", created_at: "2015-04-12 01:53:00", updated_at: "2015-04-12 01:53:00">, #<Question id: 11, question: "2", answer_1: "2", answer_2: "2", answer_3: "2", answer_4: "2", answer_5: "2", created_at: "2015-04-12 03:43:38", updated_at: "2015-04-12 03:43:38">, #<Question id: 12, question: "Who won Superbowl XL1X?", answer_1: "Patriots", answer_2: "Seahawks", answer_3: "Nobody", answer_4: "I did", answer_5: "You did", created_at: "2015-04-12 03:47:00", updated_at: "2015-04-12 03:47:00">, #<Question id: 13, question: "Who won the world series?", answer_1: "Red Sox", answer_2: "Yankees", answer_3: "Blue Jays", answer_4: "Orioles", answer_5: "Tigers", created_at: "2015-04-12 18:31:10", updated_at: "2015-04-13 01:12:39">]
+D, [2015-04-16T22:10:48.185501 #3229] DEBUG -- : Test index.
+D, [2015-04-16T22:10:49.148962 #3229] DEBUG -- : New Test.
+D, [2015-04-16T22:10:49.149687 #3229] DEBUG -- : 13
+D, [2015-04-16T22:10:49.149729 #3229] DEBUG -- : 12
+D, [2015-04-16T22:10:49.149756 #3229] DEBUG -- : 10
+D, [2015-04-16T22:10:49.149784 #3229] DEBUG -- : 10
+D, [2015-04-16T22:10:49.149809 #3229] DEBUG -- : 11
+D, [2015-04-16T22:10:49.150385 #3229] DEBUG -- : [#<Question id: 10, question: "1", answer_1: "1", answer_2: "1", answer_3: "1", answer_4: "1", answer_5: "1", created_at: "2015-04-12 01:53:00", updated_at: "2015-04-12 01:53:00">, #<Question id: 11, question: "2", answer_1: "2", answer_2: "2", answer_3: "2", answer_4: "2", answer_5: "2", created_at: "2015-04-12 03:43:38", updated_at: "2015-04-12 03:43:38">, #<Question id: 12, question: "Who won Superbowl XL1X?", answer_1: "Patriots", answer_2: "Seahawks", answer_3: "Nobody", answer_4: "I did", answer_5: "You did", created_at: "2015-04-12 03:47:00", updated_at: "2015-04-12 03:47:00">, #<Question id: 13, question: "Who won the world series?", answer_1: "Red Sox", answer_2: "Yankees", answer_3: "Blue Jays", answer_4: "Orioles", answer_5: "Tigers", created_at: "2015-04-12 18:31:10", updated_at: "2015-04-13 01:12:39">]
+D, [2015-04-16T22:10:50.805322 #3229] DEBUG -- : Test index.
+D, [2015-04-16T22:10:51.657543 #3229] DEBUG -- : New Test.
+D, [2015-04-16T22:10:51.658160 #3229] DEBUG -- : 13
+D, [2015-04-16T22:10:51.658194 #3229] DEBUG -- : 12
+D, [2015-04-16T22:10:51.658219 #3229] DEBUG -- : 10
+D, [2015-04-16T22:10:51.658244 #3229] DEBUG -- : 10
+D, [2015-04-16T22:10:51.658269 #3229] DEBUG -- : 11
+D, [2015-04-16T22:10:51.658709 #3229] DEBUG -- : [#<Question id: 10, question: "1", answer_1: "1", answer_2: "1", answer_3: "1", answer_4: "1", answer_5: "1", created_at: "2015-04-12 01:53:00", updated_at: "2015-04-12 01:53:00">, #<Question id: 11, question: "2", answer_1: "2", answer_2: "2", answer_3: "2", answer_4: "2", answer_5: "2", created_at: "2015-04-12 03:43:38", updated_at: "2015-04-12 03:43:38">, #<Question id: 12, question: "Who won Superbowl XL1X?", answer_1: "Patriots", answer_2: "Seahawks", answer_3: "Nobody", answer_4: "I did", answer_5: "You did", created_at: "2015-04-12 03:47:00", updated_at: "2015-04-12 03:47:00">, #<Question id: 13, question: "Who won the world series?", answer_1: "Red Sox", answer_2: "Yankees", answer_3: "Blue Jays", answer_4: "Orioles", answer_5: "Tigers", created_at: "2015-04-12 18:31:10", updated_at: "2015-04-13 01:12:39">]
+D, [2015-04-16T22:10:52.490645 #3229] DEBUG -- : Add question ID 10 to survey ID 17.
+D, [2015-04-16T22:10:52.500355 #3229] DEBUG -- : New Test.
+D, [2015-04-16T22:10:52.501151 #3229] DEBUG -- : 13
+D, [2015-04-16T22:10:52.501192 #3229] DEBUG -- : 12
+D, [2015-04-16T22:10:52.501229 #3229] DEBUG -- : 10
+D, [2015-04-16T22:10:52.501265 #3229] DEBUG -- : 10
+D, [2015-04-16T22:10:52.501289 #3229] DEBUG -- : 11
+D, [2015-04-16T22:10:52.502167 #3229] DEBUG -- : [#<Question id: 10, question: "1", answer_1: "1", answer_2: "1", answer_3: "1", answer_4: "1", answer_5: "1", created_at: "2015-04-12 01:53:00", updated_at: "2015-04-12 01:53:00">, #<Question id: 11, question: "2", answer_1: "2", answer_2: "2", answer_3: "2", answer_4: "2", answer_5: "2", created_at: "2015-04-12 03:43:38", updated_at: "2015-04-12 03:43:38">, #<Question id: 12, question: "Who won Superbowl XL1X?", answer_1: "Patriots", answer_2: "Seahawks", answer_3: "Nobody", answer_4: "I did", answer_5: "You did", created_at: "2015-04-12 03:47:00", updated_at: "2015-04-12 03:47:00">, #<Question id: 13, question: "Who won the world series?", answer_1: "Red Sox", answer_2: "Yankees", answer_3: "Blue Jays", answer_4: "Orioles", answer_5: "Tigers", created_at: "2015-04-12 18:31:10", updated_at: "2015-04-13 01:12:39">]
+D, [2015-04-16T22:10:58.832900 #3229] DEBUG -- : Add question ID 10 to survey ID 17.
+D, [2015-04-16T22:10:58.840076 #3229] DEBUG -- : New Test.
+D, [2015-04-16T22:10:58.840838 #3229] DEBUG -- : 13
+D, [2015-04-16T22:10:58.840880 #3229] DEBUG -- : 12
+D, [2015-04-16T22:10:58.840907 #3229] DEBUG -- : 10
+D, [2015-04-16T22:10:58.840934 #3229] DEBUG -- : 10
+D, [2015-04-16T22:10:58.840962 #3229] DEBUG -- : 11
+D, [2015-04-16T22:10:58.841594 #3229] DEBUG -- : [#<Question id: 10, question: "1", answer_1: "1", answer_2: "1", answer_3: "1", answer_4: "1", answer_5: "1", created_at: "2015-04-12 01:53:00", updated_at: "2015-04-12 01:53:00">, #<Question id: 11, question: "2", answer_1: "2", answer_2: "2", answer_3: "2", answer_4: "2", answer_5: "2", created_at: "2015-04-12 03:43:38", updated_at: "2015-04-12 03:43:38">, #<Question id: 12, question: "Who won Superbowl XL1X?", answer_1: "Patriots", answer_2: "Seahawks", answer_3: "Nobody", answer_4: "I did", answer_5: "You did", created_at: "2015-04-12 03:47:00", updated_at: "2015-04-12 03:47:00">, #<Question id: 13, question: "Who won the world series?", answer_1: "Red Sox", answer_2: "Yankees", answer_3: "Blue Jays", answer_4: "Orioles", answer_5: "Tigers", created_at: "2015-04-12 18:31:10", updated_at: "2015-04-13 01:12:39">]
