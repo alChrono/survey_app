@@ -32,19 +32,19 @@ class TestsControllerTest < ActionController::TestCase
     assert_response :success
   end
 
-=begin
-  # Update should not work.  Items are deleted and removed from Survey Tests.
-  test "should update test" do
-    patch :update, id: @test, test: { question: @test.question, survey: @test.survey }
-    assert_redirected_to test_path(assigns(:test))
-  end
-=end
-
   test "should destroy test" do
     assert_difference('Test.count', -1) do
       delete :destroy, id: @test
     end
 
     assert_redirected_to tests_path
+  end
+
+  test "should not add duplicate question to survey" do
+    @request.env['HTTP_REFERER'] = 'survey/new'
+
+    assert_no_difference('Test.count') do
+      post :create, test: { survey_id: @test.survey_id.to_s, question_id: @test.question_id.to_s}
+    end
   end
 end

@@ -46,4 +46,10 @@ class SurveysControllerTest < ActionController::TestCase
 
     assert_redirected_to surveys_path
   end
+
+  test "should not create duplicate survey" do
+    assert_no_difference('Survey.count') do
+      post :create, survey: { name: @survey.name }
+    end
+  end
 end

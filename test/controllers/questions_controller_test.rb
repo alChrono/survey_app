@@ -18,7 +18,7 @@ class QuestionsControllerTest < ActionController::TestCase
 
   test "should create question" do
     assert_difference('Question.count') do
-      post :create, question: { answer_1: @question.answer_1, answer_2: @question.answer_2, answer_3: @question.answer_3, answer_4: @question.answer_4, answer_5: @question.answer_5, question: @question.question }
+      post :create, question: { answer_1: @question.answer_1, answer_2: @question.answer_2, answer_3: @question.answer_3, answer_4: @question.answer_4, answer_5: @question.answer_5, question: "What?" }
     end
 
     assert_redirected_to question_path(assigns(:question))
@@ -45,5 +45,11 @@ class QuestionsControllerTest < ActionController::TestCase
     end
 
     assert_redirected_to questions_path
+  end
+
+  test "should not create duplicate question" do
+    assert_no_difference('Question.count') do
+      post :create, question: { answer_1: @question.answer_1, answer_2: @question.answer_2, answer_3: @question.answer_3, answer_4: @question.answer_4, answer_5: @question.answer_5, question: @question.question }
+    end
   end
 end
