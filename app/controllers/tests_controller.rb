@@ -18,6 +18,11 @@ class TestsController < ApplicationController
   def new
     $logger.debug{"New Test."}
     @test               = Test.new
+  
+   
+    $logger.debug{"The selected survey is #{session[:survey]}."}
+    # select the first index if nothing has been selected  
+    session[:survey] = 1 if session[:survey].nil? || session[:survey] == 0
     
     # get all the questions that are associated with the survey
     # duplicate questions are ommited
