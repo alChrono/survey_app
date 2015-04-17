@@ -4,9 +4,4 @@ class Question < ActiveRecord::Base
 	validates 	:question, 	:presence => true
 	validates 	:answer_1, 	:presence => true
 	validates_uniqueness_of :question,  :scope => [:answer_1, :answer_2, :answer_3, :answer_4, :answer_5]
-
-	#@validates :answer_2
-	#validates :answer_3
-	#validates :answer_4
-	#validates :answer_5
 end

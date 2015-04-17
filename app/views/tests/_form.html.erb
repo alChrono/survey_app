@@ -16,13 +16,15 @@
     <%= f.collection_select(:survey_id, Survey.all, :id, :name, :selected => session[:survey]) %>
     <%= f.submit "Load Selected Survey"%>
   </div>
-  <div>
-    Current Questions in survey: <br>
-    <%=select_tag(:test, options_from_collection_for_select(@questions, :id, :question),:multiple =>false,:size => 8,:class=> "text")%>
-  </div>
   <div class="field">
     <%= f.label :question %><br>
     <%= f.collection_select(:question_id, Question.all, :id, :question) %>
     <%= f.submit "Add Question"%>
+  </div>
+  <div>
+    Current Questions in survey: <br>
+    <%= select_tag(:selected_survey_question, options_from_collection_for_select(@questions, :id, :question),:multiple =>false,:size => 8,:class=> "text")%>
+    <br>
+    <%= f.submit "Delete Selected Question"%>
   </div>
 <% end %>
