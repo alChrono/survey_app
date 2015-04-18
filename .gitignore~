@@ -15,4 +15,4 @@
 /log/*
 !/log/.keep
 /tmp
-survey_log.txt
+*.log
